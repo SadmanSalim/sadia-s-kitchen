@@ -180,3 +180,55 @@
     display: none;
   }
 }
+
+
+/* === Responsive Breakpoints === */
+
+/* Tablets */
+@media (max-width: 992px) {
+  #checkout_info .form-grid {
+    grid-template-columns: 1fr;
+  }
+  #checkout_info .order-summary {
+    margin-top: 40px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  #checkout_info {
+    padding: 10px;
+  }
+
+  #checkout_info h2 {
+    font-size: 20px;
+  }
+
+  #checkout_info .payment-method {
+    flex-direction: column;
+  }
+
+  #checkout_info .order-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #checkout_info .qty-control {
+    margin-top: 5px;
+  }
+
+  #checkout_info .summary-total strong {
+    font-size: 16px;
+  }
+
+  #checkout_info .confirm-btn {
+    padding: 12px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 600px) {
+  .qty-control {
+    margin: 0 auto;       /* centers the block itself */
+    justify-content: center;
+  }
+}
