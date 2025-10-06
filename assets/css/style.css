@@ -410,6 +410,10 @@ ol {
   gap: 0;
   margin: 0 10px;
 }
+#footer .middle-row {
+  text-align: left;
+  padding-left: 40px;
+}
 #footer .middle-row h4 {
   font-family: var(--primary-font);
   font-weight: 600;
@@ -424,6 +428,15 @@ ol {
 }
 #footer .middle-row ul li {
   margin: 10px 0;
+}
+#footer .middle-row  .social-links{
+  margin-bottom: 20px;
+}
+#footer .middle-row  .social-links a{
+  color: #fff;
+  font-size: 30px;
+  gap: 0;
+  margin: 0 10px;
 }
 #footer hr {
   color: #fff;
@@ -468,6 +481,190 @@ ol {
 }
 
 /* cart design end here */
+
+/*
+====================================================================
+  Contact Page Start Here
+==================================================================== 
+*/
+#contact-page .inner-banner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  padding: 140px 0;
+}
+#contact-page .inner-banner {
+  width: 100%;
+  height: 100%;
+}
+#contact-page .inner-banner .auto-container {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inner-banner .auto-container .subtitle {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.inner-banner .auto-container .pattern-image {
+  margin: 15px 0;
+}
+.inner-banner .auto-container .pattern-image img {
+  width: 150px;
+}
+.inner-banner .auto-container h1 {
+  font-family: var(--tertiary-font);
+  font-weight: 700;
+  font-size: 5rem;
+  color: #fff;
+}
+
+#contact-page .inner-banner .image-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Inner Banner Section End */
+/*Contact Info Section*/
+.contact-page {
+  position: relative;
+  padding: 100px 0 70px 0;
+  margin-bottom: 50px;
+}
+.contact-page .location-center .cinfo-box{
+  padding:0 0 100px 0;
+
+}
+.contact-page .location-center .cinfo-box .contactinfo-block .inner-box h4 {
+  font-family: var(--tertiary-font);
+  font-weight: 700;
+  font-size: 34px;
+  color: var(--primary-color);
+}
+#contact-page .contact-page .location-center .cinfo-box .contactinfo-block .inner-box .text {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  color: #383838;
+  margin-top: 10px;
+}
+/*  Location form Section */
+#contact-page .clearfix{
+  padding: 0 30px;
+}
+#contact-page .c-page-form-box{
+  padding: 100px 0 50px 0;
+  text-align: center;
+  background: #f7f7f7;
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+  /* margin-bottom: 50px; */
+
+}
+#contact-page .c-page-form-box h2{
+  font-family: var(--tertiary-font);
+  font-weight: 700;
+  font-size: 60px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+#contact-page .form-section .title-box .desc{
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #383838;
+  margin-bottom: 40px;
+  padding: 0 40px;
+}
+/* .form-section{
+  padding: 0 20px;
+} */
+#contact-page .default-form {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+#contact-page .default-form .form-group input,
+#contact-page .default-form .form-group textarea {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+  resize: none;
+}
+#contact-page .field-inner{
+  padding-bottom: 10px;
+}
+#contact-page .field-inner input:focus,
+#contact-page .field-inner textarea:focus {
+  border: 1px solid var(--primary-color);
+}
+.field-inner textarea::placeholder {
+  color: #000000;
+}
+#contact-page .field-inner input::placeholder {
+  color: #000000;
+}
+#contact-page .default-form .form-group textarea {
+  min-height: 150px;
+  color: #000000;
+}
+#contact-page .default-form .form-group button {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+#contact-page .default-form .form-group button:hover {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+/* img */
+#contact-page .contact-img{
+  padding: 0 20px;
+}
+#contact-page .contact-img img{
+  width: 100%;
+  border-radius: 5px;
+}
+#contact-page .contact-map{
+  margin-top: 50px;
+  margin-bottom: -7px;
+}
+/*
+=================================================
+contact page design end here 
+=================================================
+*/
 
 .food-modal {
   border-radius: 12px;
@@ -813,102 +1010,7 @@ max-height: 300px;
 
 
 
-
-
-/* why choos end */
-
-
-
-/* 
-
-.masonry-grid {
-  column-count: 3;
-  column-gap: 1.5rem;
-}
-
-.masonry-item {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  transition: 0.3s;
-}
-
-.masonry-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-}
-
-.masonry-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: 0.3s;
-}
-
-.masonry-item:hover img {
-  transform: scale(1.05);
-}
-
-.masonry-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 1.2rem;
-  background: linear-gradient(transparent, rgba(0,0,0,0.7));
-  color: white;
-  transform: translateY(100%);
-  transition: 0.3s;
-}
-
-.masonry-item:hover .masonry-caption {
-  transform: translateY(0);
-}
-
-.masonry-size-1 { height: 250px; }
-.masonry-size-2 { height: 350px; }
-.masonry-size-3 { height: 450px; }
-.masonry-size-4 { height: 300px; }
-.masonry-size-5 { height: 400px; }
-.masonry-size-6 { height: 280px; }
-.masonry-size-7 { height: 320px; }
-.masonry-size-8 { height: 500px; }
-.masonry-size-9 { height: 370px; }
-
-.masonry-size-10 { height: 420px; }
-.masonry-size-11 { height: 600px; }
-.masonry-size-12 { height: 340px; }
-.masonry-size-13 { height: 480px; }
-.masonry-size-14 { height: 260px; }
-
-@media (max-width: 992px) {
-  .masonry-grid { column-count: 2; }
-  .masonry-item {
-    height: auto !important;
-  }
-  .masonry-item img {
-    height: auto;
-  }
-}
-
-@media (max-width: 576px) {
-  .masonry-grid { column-count: 1; }
-
-  .masonry-item {
-    height: auto !important;
-  }
-  .masonry-item img {
-    height: auto;
-  }
-} */
-
-
-
-
+/* masonry  */
 
 
 
@@ -1180,5 +1282,32 @@ Checkout page design start here
 /*
 =================================================
 checkout page design end here 
+=================================================
+*/
+/*
+=================================================
+My accoutn page design  here 
+=================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+=================================================
+My account page design end here 
 =================================================
 */
