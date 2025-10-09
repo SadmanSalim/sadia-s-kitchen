@@ -2,86 +2,150 @@
   .navbar .navbar-brand img {
     width: 80px;
   }
+
   .navbar-toggler iconify-icon {
     font-size: 20px;
   }
+
   .search-icon iconify-icon {
     font-size: 20px;
   }
+
   .navbar-collapse {
     background: #fff;
     z-index: 999;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease, padding 0.3s ease;
-  }
-  .navbar-collapse.show {
-    max-height: 400px; 
-    padding: 15px;
-  }
-  .navbar-collapse {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
   }
+
+  .navbar-collapse.show {
+    max-height: 400px;
+    padding: 15px;
+  }
+
   .banner-content {
     height: 200px;
   }
-  #business_details .contents .col{
+
+  #business_details .contents .col {
     margin: 10px 0;
   }
+
   #menu .contents .menu-item {
     width: 170px;
     height: auto;
     margin: 10px 0;
   }
+
   #menu .heading .heading_text .main_heading p {
     font-size: 12px;
   }
-  #menu .heading .heading_text .main_heading .icon{
+
+  #menu .heading .heading_text .main_heading .icon {
     position: absolute;
     top: -10px;
     left: 60px;
   }
+
   #menu .heading .heading_text .main_heading h3 {
     font-size: 40px;
   }
+
   #happy_customer .heading_text h3 {
     font-size: 30px;
   }
+
   #happy_customer .heading_text p {
     font-size: 12px;
   }
-  #happy_customer{
+
+  #happy_customer {
     margin-bottom: 50px;
   }
-  #footer .content{
+
+  #footer .content {
     padding: 47px 0 80px 0;
   }
-  #footer .right-row iframe{
+
+  #footer .right-row iframe {
     width: 250px;
     height: 200px;
   }
-  #footer .middle-row{
+
+  #footer .middle-row {
     margin: 10px 0 10px 0;
   }
-  #footer .copyright p{
+
+  #footer .copyright p {
     font-size: 13px;
   }
-  .cart{
-  width: 80px;
-  height: 75px;
+
+  .cart {
+    width: 80px;
+    height: 75px;
   }
-  #menu .contents .menu-item h4{
+
+  #menu .contents .menu-item h4 {
     left: 20px;
     bottom: 35px;
     font-size: 18px;
   }
-  #menu .contents .menu-item p{
+
+  #menu .contents .menu-item p {
     left: 20px;
     bottom: 5px;
     font-size: 14px;
   }
-  
+
+  .food-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .food-menu-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-height: 343px;
+  }
+
+  .food-menu-section {
+    padding: 20px 20px;
+  }
+
+  .scroll-left-btn,
+  .scroll-right-btn {
+    display: none !important;
+  }
+
+  .auth-left {
+    display: none;
+  }
+
+  .auth-right {
+    margin-top: 30px;
+  }
+
+  .auth-section {
+    padding: 0;
+  }
+
+  .main-color {
+    min-height: 10vh;
+  }
 }
+
+
+
+
+
+
+
+
+
