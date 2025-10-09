@@ -9,16 +9,22 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
     <!-- iconify icon -->
     <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+
     <!-- slick slider -->
     <link rel="stylesheet" href="./assets/css/slick.css">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -63,13 +69,16 @@
                             <a class="nav-link" href="./contact.html">Contact Us</a>
                         </li>
                         <li class="nav-item button-nav d-none d-lg-flex">
-                            <a class="order-button" href="#">Order Now <iconify-icon class="iconify-icon"
-                                    icon="hugeicons:shopping-basket-03"></iconify-icon></a>
+                            <a class="order-button" href="#">Order Now 
+                                <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="search-icon order-2 d-lg-none">
-                    <a href=""><iconify-icon icon="ri:search-line"></iconify-icon></a>
+                    <a href="">
+                        <iconify-icon icon="ri:search-line"></iconify-icon>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -106,17 +115,6 @@
                     <p>Innovating taste, quality, and service across every plate we serve.</p>
                 </div>
                 <div class="contents text-center">
-                    <!-- <div class="row align-items-center justify-content-center">
-            <div class="col">
-              <img src="./assets/img/business-group-1.png" class="img-fluid" alt="business-group-1">
-            </div>
-            <div class="col">
-              <img src="./assets/img/business-group-2.png" class="img-fluid" alt="business-group-2">
-            </div>
-            <div class="col">
-              <img src="./assets/img/business-group-3.png" class="img-fluid" alt="business-group-3">
-            </div>
-          </div> -->
                     <div class="business-slider d-flex align-items-center justify-content-center">
                         <div>
                             <img src="./assets/img/business-group-2.png" class="img-fluid" alt="business-group-2">
@@ -131,7 +129,7 @@
                 </div>
             </div>
         </section>
-        <!-- *Buisness Details End Here -->
+        <!-- *Business Details End Here -->
 
         <!-- *Dish Menu Start Here -->
         <section id="menu">
@@ -161,120 +159,77 @@
                             </div>
                         </div>
                         <div class="col-lg-4 text-lg-end text-center mt-3 mt-lg-0 d-none d-lg-block">
-                            <a class="order-button" href="#">Order Now <iconify-icon class="iconify-icon"
-                                    icon="hugeicons:shopping-basket-03"></iconify-icon></a>
+                            <a class="order-button" href="#">Order Now 
+                                <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="contents">
-
-                    <div class="row menu-item">
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/gallery-image-14.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                    <div class="row align-items-center justify-content-center">
+                        <!-- Menu Items Start -->
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img">
+                                <a href=""><img class="img-fluid" src="./assets/img/menu-1.png" alt=""></a>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/menu-2.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                            <div class="menu-price">
+                                <a href=""><h4>Tuesday Special Rice Meal</h4></a>
+                                <span>৳220.00</span>
                             </div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/menu-2.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img">
+                                <a href=""><img class="img-fluid" src="./assets/img/menu-2.png" alt=""></a>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/menu-2.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                            <div class="menu-price">
+                                <a href=""><h4>Spiced rice, shawarma, chaap, and more home</h4></a>
+                                <span>৳220.00</span>
                             </div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/menu-2.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img">
+                                <a href=""><img class="img-fluid" src="./assets/img/menu-3.png" alt=""></a>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/menu-2.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                            <div class="menu-price">
+                                <a href=""><h4>Tuesday Special Rice Meal</h4></a>
+                                <span>৳220.00</span>
                             </div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/menu-2.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img">
+                                <a href=""><img class="img-fluid" src="./assets/img/menu-4.png" alt=""></a>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-6 mb-4">
-                            <div class="food-card" data-bs-toggle="modal" data-bs-target="#cartModal">
-                                <img src="./assets/img/menu-2.png" alt="Chicken Shawarma">
-                                <h3 class="food-title">Chicken Shawarma</h3>
-                                <p class="food-desc">Pasta is a type of food typically made from an unleavened dough.
-                                </p>
-
-                                <div class="price-cart">
-                                    <div class="price">$35.00</div>
-                                    <button class="btn-cart">Add To Cart</button>
-                                </div>
+                            <div class="menu-price">
+                                <a href=""><h4>Tuesday Special Rice Meal</h4></a>
+                                <span>৳220.00</span>
                             </div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img"><a href=""><img class="img-fluid" src="./assets/img/menu-4.png" alt=""></a></div>
+                            <div class="menu-price"><a href=""><h4>Biriyani</h4></a><span>৳220.00</span></div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+                        </div>
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img"><img class="img-fluid" src="./assets/img/menu-3.png" alt=""></div>
+                            <div class="menu-price"><h4>Biriyani</h4><span>৳220.00</span></div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+                        </div>
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img"><img class="img-fluid" src="./assets/img/menu-2.png" alt=""></div>
+                            <div class="menu-price"><h4>Biriyani</h4><span>৳220.00</span></div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+                        </div>
+                        <div class="menu-item col-6 col-lg-3">
+                            <div class="menu-img"><img class="img-fluid" src="./assets/img/menu-1.png" alt=""></div>
+                            <div class="menu-price"><h4>Biriyani</h4><span>৳220.00</span></div>
+                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+                        </div>
+                        <!-- Menu Items End -->
                     </div>
 
 
@@ -294,8 +249,9 @@
 
 
                     <div class="text-center mt-3 d-lg-none">
-                        <a class="order-button" href="#">Order Now <iconify-icon class="iconify-icon"
-                                icon="hugeicons:shopping-basket-03"></iconify-icon></a>
+                        <a class="order-button" href="#">Order Now 
+                            <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
+                        </a>
                     </div>
                 </div>
 
@@ -393,40 +349,12 @@
                     <div class="galler-image text-center">
                         <img src="./assets/img/gallery-image.png" class="img-fluid" alt="">
                     </div>
-                    <!-- <div class="gallery_image_1">
-                <img src="./assets/img/gallery-image-1.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_2">
-                <img src="./assets/img/gallery-image-2.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_3">
-                <img src="./assets/img/gallery-image-3.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_4">
-                <img src="./assets/img/gallery-image-4.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_5">
-                <img src="./assets/img/gallery-image-5.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_6">
-                <img src="./assets/img/gallery-image-6.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_7">
-                <img src="./assets/img/gallery-image-7.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_8">
-                <img src="./assets/img/gallery-image-8.png" alt="gallery-image-1">
-              </div>
-              <div class="gallery_image_9">
-                <img src="./assets/img/gallery-image-9.png" alt="gallery-image-1">
-              </div> -->
                 </div>
             </div>
         </section>
         <!-- *Happy Customers End Here -->
 
     </main>
-
 
     <!-- footer Start here -->
     <footer>
@@ -482,9 +410,7 @@
                     <div class="copyright">
                         <div class="row">
                             <div class="col-lg-6 col-12 text-lg-start text-center">
-                                <p>Copyright <iconify-icon class="iconify-icon"
-                                        icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's Kitchen.All Rights
-                                    Reserved</p>
+                                <p>Copyright <iconify-icon class="iconify-icon" icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's Kitchen.All Rights Reserved</p>
                             </div>
                             <div class="col-lg-6 col-12 text-lg-end text-center">
                                 <p>Developed By <a href="">Brand Boosters</a></p>
@@ -497,14 +423,47 @@
     </footer>
     <!-- footer End here -->
 
-    <div class="cart d-flex justify-content-center align-items-center">
-        <div class="notification d-flex align-items-center justify-content-center">
-            <span>1</span>
-        </div>
-        <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
+    <!--CART SIDEBAR START HERE-->
+
+  <div class="cart d-flex justify-content-center align-items-center">
+    <div class="notification d-flex align-items-center justify-content-center">
+        <span>1</span>
+    </div>
+    <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
+</div>
+
+<div class="cart-sidebar">
+    <div class="cart-header">
+        <h3>Your Cart</h3>
+        <button class="cart-close"><i class="fa-solid fa-xmark"></i></button>
     </div>
 
+    <div class="cart-items">
+        <div class="cart-item-container">
+            <img src="./assets/img/menu-4.png" alt="Set Menu 4 Image" class="item-image yellow-bg-img">
+            
+            <div class="item-details">
+                <span class="item-name">Set Menu 4</span>
+                <span class="item-price">Tk 698.00</span>
+            </div>
+            
+            <div class="item-quantity-controls">
+                <button class="remove-item-btn trash-icon"><i class="fa-solid fa-trash"></i></button>
+                <span class="item-quantity">1</span>
+                <button class="increase-quantity-btn"><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </div>
+        </div>
 
+    <div class="cart-summary">
+        <div class="cart-total-line">
+            <strong>Total:</strong>
+            <strong>669 BDT</strong>
+        </div>
+        <a class="checkout-btn" href="">Checkout</a>
+    </div>
+</div>
+<!--CART SIDEBAR END HERE-->
 
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
