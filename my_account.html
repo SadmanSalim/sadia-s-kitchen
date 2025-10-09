@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sadia's Kitchen</title>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- iconify icon -->
+  <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+  <!-- slick slider -->
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- *Nav Bar Start Heer -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand order-1 order-lg-0" href="index.html">
+          <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
+        </a>
+        <button class="navbar-toggler order-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <iconify-icon class="iconify-icon" icon="hugeicons:menu-03"></iconify-icon>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Our Brands
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item button-nav d-none d-lg-flex">
+              <a class="order-button" href="#">Order Now <iconify-icon class="iconify-icon"
+                  icon="hugeicons:shopping-basket-03"></iconify-icon></a>
+            </li>
+          </ul>
+        </div>
+        <div class="search-icon order-2 d-lg-none">
+          <a href=""><iconify-icon icon="material-symbols:logout-sharp" width="24" height="24"></iconify-icon> <span  class="d-block" >logout</span></a>
+        </div>
+      </div>
+    </nav>
+    <!-- *Nav Bar Ends Here -->
+  </header>
+
+
+
+
+  <main>
+    <!-- my dashboard -->
+<div class="container">
+   <div class="dashboard-container" id="myAccount">
+
+        <div class="mobile-nav">
+            <div class="mobile-nav-items">
+                <a class="mobile-nav-item active" data-target="dashboard">
+                    <!-- <i class="fas fa-chart-pie"></i> -->
+                    <span>Dashboard</span>
+                </a>
+                <a class="mobile-nav-item" data-target="personal-info">
+                    <!-- <i class="fas fa-user"></i> -->
+                    <span>Profile</span>
+                </a>
+                <a class="mobile-nav-item" data-target="order-history">
+                    <!-- <i class="fas fa-receipt"></i> -->
+                    <span>Orders</span>
+                </a>
+                <a class="mobile-nav-item" data-target="change-password">
+                    <!-- <i class="fas fa-edit"></i> -->
+                    <span> Password</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="dashboard-content">
+            <aside class="sidebar">
+                <div class="profile-card">
+                    <div class="profile-img">
+                        <img src="./assets/img/Image (11).png" alt="">
+                        <div class="profile-overlay">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                    </div>
+                    <h2 class="profile-name">Roland Donald</h2>
+                    <p class="profile-phone">+1 (888) 888-8888</p>
+                </div>
+                
+                <nav class="nav-menu">
+                    <a class="nav-item active" data-target="dashboard">
+                        <iconify-icon icon="fa6-solid:chart-pie" width="24" height="24"></iconify-icon>
+                        <span>Dashboard</span>
+                    </a>
+                    <a class="nav-item" data-target="personal-info">
+                        <iconify-icon icon="mingcute:user-2-fill" width="24" height="24"></iconify-icon>
+                        <span>Personal Information</span>
+                    </a>
+                    <a class="nav-item" data-target="order-history">
+                        <iconify-icon icon="solar:cart-bold" width="24" height="24"></iconify-icon>
+                        <span>Order History</span>
+                    </a>
+                    <a class="nav-item" data-target="update-profile">
+                     <iconify-icon icon="ic:round-change-circle" width="24" height="24"></iconify-icon>
+                      
+                        <span>Change Password</span>
+                    </a>
+                    <a class="nav-item">
+                        <iconify-icon icon="material-symbols:logout" width="24" height="24"></iconify-icon>
+                        <span>Log Out</span>
+                    </a>
+                </nav>
+            </aside>
+
+            <main class="main-content">
+                <!-- Dashboard Section -->
+                <section id="dashboard" class="content-section active">
+                    <div class="section-header">
+                        <div>
+                            <h2 class="section-title">Dashboard</h2>
+                            <p class="section-subtitle">Welcome back, Roland! Here's your activity summary.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="stats-cards">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <iconify-icon icon="tdesign:cart-filled" width="24" height="24"></iconify-icon>
+                            </div>
+                            <div class="stat-value">12</div>
+                            <div class="stat-label">Total Orders</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <iconify-icon icon="mdi:bangladeshi-taka" width="24" height="24"></iconify-icon>
+                            </div>
+                            <div class="stat-value"><iconify-icon icon="mdi:bangladeshi-taka" width="24" height="24"></iconify-icon>325</div>
+                            <div class="stat-label">Total Spent</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <iconify-icon icon="tabler:star-filled" width="24" height="24"></iconify-icon>
+                            </div>
+                            <div class="stat-value">4.8</div>
+                            <div class="stat-label">Avg. Rating</div>
+                        </div>
+                    </div>
+                    
+                    <div class="order-summary">
+                        <div class="order-chart">
+                            <h3>Order Activity</h3>
+                            <div class="chart-placeholder">
+                                Order Chart Visualization
+                            </div>
+                        </div>
+                        <div class="order-chart">
+                            <h3>Favorite Items</h3>
+                            <div class="chart-placeholder">
+                                Favorite Items Chart
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section-header" style="margin-top: 30px;">
+                        <h2 class="section-title">Recent Orders</h2>
+                        <a href="#" class="view-details">View All <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="order-card">
+                        <div class="order-header">
+                            <div class="order-id">Order #3933</div>
+                            <div class="order-date">April 4, 2021</div>
+                        </div>
+                        <div class="order-details">
+                            <div class="order-items">Set Menu 1, Set Menu 5</div>
+                            <div class="order-total">$135.00</div>
+                        </div>
+                        <div class="order-footer">
+                            <span class="status-badge status-processing">Processing</span>
+                            <a href="#" class="view-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Personal Information Section -->
+                <section id="personal-info" class="content-section">
+                    <div class="section-header">
+                      
+                      <div>
+                        <h2 class="section-title">Personal Information</h2>
+                            <p class="section-subtitle">Manage your personal details and contact information</p>
+                          </div>
+                          <button class="btn btn-outline nav-item" data-target="update-profile">
+                               <iconify-icon icon="bxs:edit" width="24" height="24"></iconify-icon> Edit Profile
+                          </button>
+                        
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">First Name</label>
+                            <input type="text" class="form-control" value="Roland" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-control" value="Donald" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" value="roland.donald@example.com" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" value="+1 (888) 888-8888" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" value="1990-05-15" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Location</label>
+                            <input type="text" class="form-control" value="New York, USA" readonly>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Address</label>
+                        <input type="text" class="form-control" value="123 Main Street, Apt 4B" readonly>
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Postal Code</label>
+                            <input type="text" class="form-control" value="10001" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Member Since</label>
+                            <input type="text" class="form-control" value="January 2020" readonly>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Order History Section -->
+                <section id="order-history" class="content-section">
+                    <div class="section-header">
+                        <div>
+                            <h2 class="section-title">Order History</h2>
+                            <p class="section-subtitle">Review your past orders and their status</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="order-card">
+                        <div class="order-header">
+                            <div class="order-id">Order #3933</div>
+                            <div class="order-date">April 4, 2021</div>
+                        </div>
+                        <div class="order-details">
+                            <div class="order-items">Set Menu 1, Set Menu 5</div>
+                            <div class="order-total">$135.00</div>
+                        </div>
+                        <div class="order-footer">
+                            <span class="status-badge status-processing">Processing</span>
+                            <a href="#" class="view-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="order-card">
+                        <div class="order-header">
+                            <div class="order-id">Order #5045</div>
+                            <div class="order-date">March 27, 2021</div>
+                        </div>
+                        <div class="order-details">
+                            <div class="order-items">Set Menu 2</div>
+                            <div class="order-total">$25.00</div>
+                        </div>
+                        <div class="order-footer">
+                            <span class="status-badge status-completed">Completed</span>
+                            <a href="#" class="view-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="order-card">
+                        <div class="order-header">
+                            <div class="order-id">Order #5028</div>
+                            <div class="order-date">March 20, 2021</div>
+                        </div>
+                        <div class="order-details">
+                            <div class="order-items">Set Menu 3, Set Menu 4, Special Dessert</div>
+                            <div class="order-total">$165.00</div>
+                        </div>
+                        <div class="order-footer">
+                            <span class="status-badge status-completed">Completed</span>
+                            <a href="#" class="view-details">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Update Profile Section -->
+                <section id="update-profile" class="content-section">
+                    <div class="section-header">
+                        <div>
+                            <h2 class="section-title">Update Profile</h2>
+                            <p class="section-subtitle">Edit your personal information and preferences</p>
+                        </div>
+                        <div class="d-lg-block d-none" style="display: flex; gap: 15px; margin-top: 30px; justify-content: flex-end;">
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div> 
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">First Name</label>
+                            <input type="text" class="form-control" value="Roland">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-control" value="Donald">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" value="roland.donald@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" value="+1 (888) 888-8888">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" value="1990-05-15">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Location</label>
+                            <select class="form-control">
+                                <option>Select Location</option>
+                                <option selected>New York, USA</option>
+                                <option>Atlanta, USA</option>
+                                <option>Los Angeles, USA</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Address</label>
+                        <input type="text" class="form-control" value="123 Main Street, Apt 4B">
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Postal Code</label>
+                            <input type="text" class="form-control" value="10001">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Dietary Preferences</label>
+                            <select class="form-control">
+                                <option>No Preference</option>
+                                <option>Vegetarian</option>
+                                <option>Vegan</option>
+                                <option>Gluten-Free</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-lg-none d-block" style="display: flex; gap: 15px; margin-top: 30px; justify-content: flex-end;">
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div> 
+                    
+                </section>
+                <!-- change-password Section -->
+                <section id="change-password" class="content-section">
+                    <div class="section-header">
+                        <div>
+                            <h2 class="section-title">Change Password</h2>
+                            <p class="section-subtitle">Edit your Password</p>
+                        </div>
+                        <div class="d-lg-block d-none" style="display: flex; gap: 15px; margin-top: 30px; justify-content: flex-end;">
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div> 
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Old Passoword</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label"> New Password</label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                        
+
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Confirm Password</label>
+                        <input type="text" class="form-control" value="">
+                    </div>
+                    
+                    
+                    <div class="d-lg-none d-block" style="display: flex; gap: 15px; margin-top: 30px; justify-content: flex-end;">
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div> 
+                    
+                </section>
+            </main>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Resposive My dashboard end -->
+
+
+
+  </main>
+
+
+  <!-- footer Start here -->
+  <footer>
+    <div class="contianer-fluid" id="footer">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="col-lg-4 text-lg-start text-center left-row">
+              <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
+              <p>Nestled in the heart of Chattogram since 2013, Sadia’s Kitchen brings fresh, flavorful
+                meals straight to your table.</p>
+              <div class="social-links">
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                </a>
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                </a>
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 middle-row text-center">
+              <h4>Important Links</h4>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Our Menus</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 right-row text-lg-end text-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <hr>
+          <div class="copyright">
+            <div class="row">
+              <div class="col-lg-6 col-12 text-lg-start text-center">
+                <p>Copyright <iconify-icon class="iconify-icon" icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's
+                  Kitchen.All Rights
+                  Reserved</p>
+              </div>
+              <div class="col-lg-6 col-12 text-lg-end text-center">
+                <p>Developed By <a href="">Brand Boosters</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer End here -->
+
+  <div class="cart d-flex justify-content-center align-items-center">
+    <div class="notification d-flex align-items-center justify-content-center">
+      <span>1</span>
+    </div>
+    <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
+  </div>
+
+
+
+  <script src="./assets/js/jquery-3.7.1.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script>
+
+    $('.rightside').slick({
+      dots: true,
+      arrows: false,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 2000,
+
+    });
+
+
+
+
+    document.querySelectorAll('.menu-btn').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault(); 
+
+        
+        document.querySelectorAll('.menu-btn').forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+
+        
+        document.querySelectorAll('.form-section').forEach(section => {
+          section.style.display = 'none';
+        });
+
+        
+        const target = this.getAttribute('data-target');
+        if (target) {
+          document.querySelector(target).style.display = 'block';
+        }
+      });
+    });
+    document.querySelectorAll('.menu-btn2').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault(); 
+
+        
+        document.querySelectorAll('.menu-btn2').forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+
+        
+        document.querySelectorAll('.form-section2').forEach(section => {
+          section.style.display = 'none';
+        });
+
+        
+        const target = this.getAttribute('data-target');
+        if (target) {
+          document.querySelector(target).style.display = 'block';
+        }
+      });
+    });
+
+
+
+
+
+  </script>
+
+
+
+</body>
+
+</html>
