@@ -205,6 +205,54 @@ $(document).ready(function () {
   }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  // Navigation functionality
+  const navItems = document.querySelectorAll('.nav-item, .mobile-nav-item');
+  
+  navItems.forEach(item => {
+      item.addEventListener('click', function(e) {
+          if (this.getAttribute('data-target')) {
+              e.preventDefault();
+              
+              // Remove active class from all items
+              navItems.forEach(navItem => {
+                  navItem.classList.remove('active');
+              });
+              
+              // Add active class to clicked item
+              this.classList.add('active');
+              
+              // Hide all sections
+              document.querySelectorAll('.content-section').forEach(section => {
+                  section.classList.remove('active');
+              });
+              
+              // Show target section
+              const targetId = this.getAttribute('data-target');
+              document.getElementById(targetId).classList.add('active');
+          }
+      });
+  });
+  
+  // Profile image hover effect
+  const profileImg = document.querySelector('.profile-img');
+  if (profileImg) {
+      profileImg.addEventListener('click', function() {
+          alert('Profile picture change functionality would go here');
+      });
+  }
+  
+  // Add some interactive elements
+  const orderCards = document.querySelectorAll('.order-card');
+  orderCards.forEach(card => {
+      card.addEventListener('click', function(e) {
+          if (!e.target.classList.contains('view-details') && !e.target.closest('.view-details')) {
+              this.querySelector('.view-details').click();
+          }
+      });
+  });
+});
+
 
 
 

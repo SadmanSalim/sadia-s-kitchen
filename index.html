@@ -9,10 +9,7 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -48,7 +45,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Our Brands
@@ -61,15 +58,18 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="./about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contact.html">Contact Us</a>
                         </li>
                         <li class="nav-item button-nav d-none d-lg-flex">
-                            <a class="order-button" href="#">Order Now 
+                            <a class="order-button" href="#">Order Now
                                 <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
                             </a>
                         </li>
@@ -159,7 +159,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 text-lg-end text-center mt-3 mt-lg-0 d-none d-lg-block">
-                            <a class="order-button" href="#">Order Now 
+                            <a class="order-button" href="#">Order Now
                                 <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
                             </a>
                         </div>
@@ -167,89 +167,109 @@
                 </div>
 
                 <div class="contents">
-                    <div class="row align-items-center justify-content-center">
-                        <!-- Menu Items Start -->
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img">
-                                <a href=""><img class="img-fluid" src="./assets/img/menu-1.png" alt=""></a>
+                    <div class="food-menu-container">
+                        <!-- Breakfast -->
+                        <div class="food-menu-item" data-category="breakfast">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-1.jpg" alt="Pancakes" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
                             </div>
-                            <div class="menu-price">
-                                <a href=""><h4>Tuesday Special Rice Meal</h4></a>
-                                <span>৳220.00</span>
+                            <div class="food-menu-info">
+                                <h3>Pancakes</h3>
+                                <p>Fluffy pancakes with honey & butter.</p>
+                                <span>৳300</span>
                             </div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img">
-                                <a href=""><img class="img-fluid" src="./assets/img/menu-2.png" alt=""></a>
+
+                        <div class="food-menu-item" data-category="breakfast">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-2.png" alt="Omelette" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
                             </div>
-                            <div class="menu-price">
-                                <a href=""><h4>Spiced rice, shawarma, chaap, and more home</h4></a>
-                                <span>৳220.00</span>
+                            <div class="food-menu-info">
+                                <h3>Cheese Omelette</h3>
+                                <p>Stuffed with cheese & herbs.</p>
+                                <span>৳300</span>
                             </div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img">
-                                <a href=""><img class="img-fluid" src="./assets/img/menu-3.png" alt=""></a>
+
+                        <!-- Lunch -->
+                        <div class="food-menu-item" data-category="lunch">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-4.png" alt="Grilled Chicken" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
                             </div>
-                            <div class="menu-price">
-                                <a href=""><h4>Tuesday Special Rice Meal</h4></a>
-                                <span>৳220.00</span>
+                            <div class="food-menu-info">
+                                <h3>Grilled Chicken</h3>
+                                <p>Served with rice and salad.</p>
+                                <span>৳300</span>
                             </div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img">
-                                <a href=""><img class="img-fluid" src="./assets/img/menu-4.png" alt=""></a>
+
+                        <div class="food-menu-item" data-category="lunch">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-1.webp" alt="Beef Burger" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
                             </div>
-                            <div class="menu-price">
-                                <a href=""><h4>Tuesday Special Rice Meal</h4></a>
-                                <span>৳220.00</span>
+                            <div class="food-menu-info">
+                                <h3>Beef Burger</h3>
+                                <p>Juicy grilled beef patty with cheese.</p>
+                                <span>৳300</span>
                             </div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
                         </div>
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img"><a href=""><img class="img-fluid" src="./assets/img/menu-4.png" alt=""></a></div>
-                            <div class="menu-price"><a href=""><h4>Biriyani</h4></a><span>৳220.00</span></div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+
+                        <!-- Dinner -->
+                        <div class="food-menu-item" data-category="dinner">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-1.png" alt="Steak" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                            <div class="food-menu-info">
+                                <h3>Beef Steak</h3>
+                                <p>Grilled to perfection with garlic butter.</p>
+                                <span>৳300</span>
+                            </div>
                         </div>
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img"><img class="img-fluid" src="./assets/img/menu-3.png" alt=""></div>
-                            <div class="menu-price"><h4>Biriyani</h4><span>৳220.00</span></div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+
+                        <div class="food-menu-item" data-category="dinner">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-1.webp" alt="Pasta" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                            <div class="food-menu-info">
+                                <h3>Italian Pasta</h3>
+                                <p>Homemade sauce with fresh basil.</p>
+                                <span>৳300</span>
+                            </div>
                         </div>
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img"><img class="img-fluid" src="./assets/img/menu-2.png" alt=""></div>
-                            <div class="menu-price"><h4>Biriyani</h4><span>৳220.00</span></div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+
+                        <!-- Dessert -->
+                        <div class="food-menu-item" data-category="dessert">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-4.png" alt="Chocolate Cake" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                            <div class="food-menu-info">
+                                <h3>Chocolate Cake</h3>
+                                <p>Rich & moist chocolate cake slice.</p>
+                                <span>৳300</span>
+                            </div>
                         </div>
-                        <div class="menu-item col-6 col-lg-3">
-                            <div class="menu-img"><img class="img-fluid" src="./assets/img/menu-1.png" alt=""></div>
-                            <div class="menu-price"><h4>Biriyani</h4><span>৳220.00</span></div>
-                            <div class="menuHover d-flex"><a href="">Add To Cart</a></div>
+                        <div class="food-menu-item" data-category="dessert">
+                            <div class="food-menu-img">
+                                <img src="./assets/img/menu-3.png" alt="Ice Cream" />
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                            <div class="food-menu-info">
+                                <h3>Vanilla Ice Cream</h3>
+                                <p>With chocolate syrup & nuts.</p>
+                                <span>৳300</span>
+                            </div>
                         </div>
-                        <!-- Menu Items End -->
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div class="text-center mt-3 d-lg-none">
-                        <a class="order-button" href="#">Order Now 
+                        <a class="order-button" href="#">Order Now
                             <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
                         </a>
                     </div>
@@ -262,79 +282,63 @@
 
 
 
-<!--  model  -->
+        <!--  model  -->
 
-<!-- ===== Cart Modal ===== -->
-<!-- ===== Cart Modal ===== -->
-<div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content food-modal">
+        <!-- ===== Cart Modal ===== -->
+        <!-- ===== Cart Modal ===== -->
+        <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content food-modal">
 
-      <!-- Close Button -->
-      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close">
-        <iconify-icon icon="basil:cross-outline"></iconify-icon>
-      </button>
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close">
+                        <iconify-icon icon="basil:cross-outline"></iconify-icon>
+                    </button>
 
-      <!-- Body -->
-      <div class="modal-body p-0">
-        <!-- Image -->
-        <img id="cartModalImg" src="./assets/img/gallery-image-14.png" class="img-fluid w-100 food-img" alt="menu">
+                    <!-- Body -->
+                    <div class="modal-body p-0">
+                        <!-- Image -->
+                        <img id="cartModalImg" src="./assets/img/gallery-image-14.png" class="img-fluid w-100 food-img"
+                            alt="menu">
 
-        <!-- Content -->
-        <div class="p-4 details">
-          <h5 id="cartModalLabel">Chicken Shawarma</h5>
-          <p class="price" id="cartModalPrice">
-            $35.00
-            <del id="cartModalOldPrice">$50</del>
-            <span id="cartModalDiscount" class="text-success"></span>
-          </p>
-          <p id="cartModalDesc" class="text-muted">Pasta is a type of food typically made from an unleavened dough.</p>
+                        <!-- Content -->
+                        <div class="p-4 details">
+                            <h5 id="cartModalLabel">Chicken Shawarma</h5>
+                            <p class="price" id="cartModalPrice">
+                                $35.00
+                                <del id="cartModalOldPrice">$50</del>
+                                <span id="cartModalDiscount" class="text-success"></span>
+                            </p>
+                            <p id="cartModalDesc" class="text-muted">Pasta is a type of food typically made from an
+                                unleavened dough.</p>
 
-          <hr>
+                            <hr>
 
-          <h6 class="fw-bold">Special instructions</h6>
-          <p class="text-muted small mb-2">Special requests are subject to the restaurant's approval. Tell us here!</p>
-          <textarea id="cartModalNote" class="form-control" rows="2" placeholder="Add a note (optional)"></textarea>
+                            <h6 class="fw-bold">Special instructions</h6>
+                            <p class="text-muted small mb-2">Special requests are subject to the restaurant's approval.
+                                Tell us here!</p>
+                            <textarea id="cartModalNote" class="form-control" rows="2"
+                                placeholder="Add a note (optional)"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="modal-footer justify-content-between sticky-footer">
+                        <div class="quantity-box">
+                            <button class="qty-btn" id="cartModalMinus">-</button>
+                            <input type="text" id="cartModalQuantity" value="1" readonly>
+                            <button class="qty-btn" id="cartModalPlus">+</button>
+                        </div>
+                        <button id="addToCartBtn" class="btn add-cart-btn">Add to cart</button>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Footer -->
-      <div class="modal-footer justify-content-between sticky-footer">
-        <div class="quantity-box">
-          <button class="qty-btn" id="cartModalMinus">-</button>
-          <input type="text" id="cartModalQuantity" value="1" readonly>
-          <button class="qty-btn" id="cartModalPlus">+</button>
-        </div>
-        <button id="addToCartBtn" class="btn add-cart-btn">Add to cart</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 
 
-
-
-
-
-
-
-<!--  model end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <!--  model end -->
 
         <!-- *Dish Menu End Here -->
 
@@ -410,7 +414,9 @@
                     <div class="copyright">
                         <div class="row">
                             <div class="col-lg-6 col-12 text-lg-start text-center">
-                                <p>Copyright <iconify-icon class="iconify-icon" icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's Kitchen.All Rights Reserved</p>
+                                <p>Copyright <iconify-icon class="iconify-icon"
+                                        icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's Kitchen.All Rights
+                                    Reserved</p>
                             </div>
                             <div class="col-lg-6 col-12 text-lg-end text-center">
                                 <p>Developed By <a href="">Brand Boosters</a></p>
@@ -425,59 +431,59 @@
 
     <!--CART SIDEBAR START HERE-->
 
-  <div class="cart d-flex justify-content-center align-items-center">
-    <div class="notification d-flex align-items-center justify-content-center">
-        <span>1</span>
-    </div>
-    <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
-</div>
-
-<div class="cart-sidebar">
-    <div class="cart-header">
-        <h3>Your Cart</h3>
-        <button class="cart-close"><i class="fa-solid fa-xmark"></i></button>
+    <div class="cart d-flex justify-content-center align-items-center">
+        <div class="notification d-flex align-items-center justify-content-center">
+            <span>1</span>
+        </div>
+        <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
     </div>
 
-    <div class="cart-items">
-        <div class="cart-item-container">
-            <img src="./assets/img/menu-4.png" alt="Set Menu 4 Image" class="item-image yellow-bg-img">
-            
-            <div class="item-details">
-                <span class="item-name">Set Menu 4</span>
-                <span class="item-price">Tk 698.00</span>
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="cart-items">
+            <div class="cart-item-container">
+                <img src="./assets/img/menu-4.png" alt="Set Menu 4 Image" class="item-image yellow-bg-img">
+
+                <div class="item-details">
+                    <span class="item-name">Set Menu 4</span>
+                    <span class="item-price">Tk 698.00</span>
+                </div>
+
+                <div class="item-quantity-controls">
+                    <button class="remove-item-btn trash-icon"><i class="fa-solid fa-trash"></i></button>
+                    <span class="item-quantity">1</span>
+                    <button class="increase-quantity-btn"><i class="fa-solid fa-plus"></i></button>
+                </div>
             </div>
-            
-            <div class="item-quantity-controls">
-                <button class="remove-item-btn trash-icon"><i class="fa-solid fa-trash"></i></button>
-                <span class="item-quantity">1</span>
-                <button class="increase-quantity-btn"><i class="fa-solid fa-plus"></i></button>
-            </div>
-        </div>
         </div>
 
-    <div class="cart-summary">
-        <div class="cart-total-line">
-            <strong>Total:</strong>
-            <strong>669 BDT</strong>
+        <div class="cart-summary">
+            <div class="cart-total-line">
+                <strong>Total:</strong>
+                <strong>669 BDT</strong>
+            </div>
+            <a class="checkout-btn" href="">Checkout</a>
         </div>
-        <a class="checkout-btn" href="">Checkout</a>
     </div>
-</div>
-<!--CART SIDEBAR END HERE-->
+    <!--CART SIDEBAR END HERE-->
 
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
     <script>
-         const qtyInput = document.getElementById('cartModalQuantity');
-  document.getElementById('cartModalPlus').addEventListener('click', () => {
-    qtyInput.value = parseInt(qtyInput.value || 0) + 1;
-  });
-  document.getElementById('cartModalMinus').addEventListener('click', () => {
-    let v = parseInt(qtyInput.value || 0);
-    if (v > 1) qtyInput.value = v - 1;
-  });
+        const qtyInput = document.getElementById('cartModalQuantity');
+        document.getElementById('cartModalPlus').addEventListener('click', () => {
+            qtyInput.value = parseInt(qtyInput.value || 0) + 1;
+        });
+        document.getElementById('cartModalMinus').addEventListener('click', () => {
+            let v = parseInt(qtyInput.value || 0);
+            if (v > 1) qtyInput.value = v - 1;
+        });
 
     </script>
 </body>
