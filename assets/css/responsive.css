@@ -390,6 +390,7 @@
     color: #ffffff;
     margin-left: 0px;
     font-size: 16px;
+  }
   #checkout_info .form-grid {
     grid-template-columns: 1fr;
   }
@@ -479,6 +480,7 @@
 }
 
 }
+
 
 @media (max-width: 576px) {
   #checkout_info {

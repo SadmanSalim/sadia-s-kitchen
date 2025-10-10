@@ -892,7 +892,7 @@ blog page design start here
 }
 /* blog page design end here */
 /* blog-details */
-#blog-details .inner-banner {
+
 
 .food-modal {
   border-radius: 12px;
@@ -2948,12 +2948,6 @@ input:focus {
 .checkout-btn:hover{
   color: #000;
 }
-/*side bar add to cart css end here*/
-
-=================================================
-blog page design start here 
-=================================================
-*/
 #blog-page .inner-banner {
   position: relative;
   height: 100%;
@@ -3311,6 +3305,7 @@ blog page design end here
   background: var(--primary-color);
   border-radius: 10px;
 }
+
 
 
 
