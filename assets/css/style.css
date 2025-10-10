@@ -470,7 +470,6 @@ body {
 #footer .middle-row .social-links {
   margin-bottom: 20px;
 }
-
 #footer .middle-row .social-links a {
   color: #fff;
   font-size: 30px;
@@ -595,7 +594,6 @@ body {
   padding: 100px 0 70px 0;
   margin-bottom: 50px;
 }
-
 .contact-page .location-center .cinfo-box {
   padding: 0 0 100px 0;
 }
@@ -606,7 +604,6 @@ body {
   font-size: 34px;
   color: var(--primary-color);
 }
-
 #contact-page
   .contact-page
   .location-center
@@ -625,7 +622,6 @@ body {
 #contact-page .clearfix {
   padding: 0 30px;
 }
-
 #contact-page .c-page-form-box {
   padding: 100px 0 50px 0;
   text-align: center;
@@ -634,7 +630,6 @@ body {
   /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
   /* margin-bottom: 50px; */
 }
-
 #contact-page .c-page-form-box h2 {
   font-family: var(--tertiary-font);
   font-weight: 700;
@@ -643,7 +638,6 @@ body {
   margin-bottom: 10px;
   padding: 0 20px;
 }
-
 #contact-page .form-section .title-box .desc {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -676,7 +670,6 @@ body {
   outline: none;
   resize: none;
 }
-
 #contact-page .field-inner {
   padding-bottom: 10px;
 }
@@ -723,12 +716,10 @@ body {
 #contact-page .contact-img {
   padding: 0 20px;
 }
-
 #contact-page .contact-img img {
   width: 100%;
   border-radius: 5px;
 }
-
 #contact-page .contact-map {
   margin-top: 50px;
   margin-bottom: -7px;
@@ -738,7 +729,170 @@ body {
 =================================================
 contact page design end here 
 =================================================
+
+=================================================
+blog page design start here 
+=================================================
 */
+#blog-page .inner-banner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  padding: 140px 0;
+}
+#blog-page .inner-banner {
+  width: 100%;
+  height: 100%;
+}
+#blog-page .inner-banner .auto-container {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inner-banner .auto-container .subtitle {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.inner-banner .auto-container .pattern-image {
+  margin: 15px 0;
+}
+.inner-banner .auto-container .pattern-image img {
+  width: 150px;
+}
+.inner-banner .auto-container h1 {
+  font-family: var(--tertiary-font);
+  font-weight: 700;
+  font-size: 5rem;
+  color: #fff;
+}
+#blog-page .inner-banner .image-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Inner Banner Section End */
+#blog-page .section-padding {
+  padding: 100px 0;
+}
+#blog-page .card {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#blog-page .card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+#blog-page .card img:hover {
+  transform: scale(1.05);
+}
+
+#blog-page .meta {
+  color: #777;
+  font-size: 0.9rem;
+  margin: 10px 0;
+  font-family: var(--secondary-font);
+}
+
+#blog-page .meta span {
+  color: #d00;
+  margin: 0 5px;
+}
+
+#blog-page .card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #333;
+  font-family: var(--primary-font);
+}
+
+#blog-page .card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 8px;
+  font-family: var(--secondary-font);
+  line-height: 1.5;
+}
+
+#blog-page .learn-more {
+  color: #d00;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  font-family: var(--primary-font);
+  margin-top: 15px;
+  cursor: pointer;
+}
+#blog-page .learn-more span {
+  margin-left: 5px;
+  display: inline-block;
+  transition: 0.3s;
+  line-height: 0;
+  vertical-align: middle;
+}
+#blog-page .learn-more:hover span {
+  transform: translateX(5px);
+  transition: 0.3s;
+}
+
+/* Pagination Styling */
+#blog-page .pagination {
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#blog-page .pagination .page-item {
+  margin: 0 4px;
+}
+
+#blog-page .pagination .page-link {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #d00;
+  font-weight: 600;
+  background-color: #f8f9fa;
+  transition: 0.3s ease;
+}
+
+#blog-page .pagination .page-link:hover {
+  background-color: #d00;
+  color: #fff;
+}
+
+#blog-page .pagination .active .page-link {
+  background-color: #d00;
+  color: #fff;
+  border: none;
+}
+
+#blog-page .pagination .page-item.disabled .page-link {
+  color: #ccc;
+  background-color: #f8f9fa;
+}
+/* blog page design end here */
+/* blog-details */
+#blog-details .inner-banner {
 
 .food-modal {
   border-radius: 12px;
@@ -855,13 +1009,11 @@ contact page design end here
   overflow: hidden;
   padding: 140px 0;
 }
-
-.inner-banner {
+#blog-details .inner-banner {
   width: 100%;
   height: 100%;
 }
-
-.inner-banner .auto-container {
+#blog-details .inner-banner .auto-container {
   position: relative;
   z-index: 2;
   height: 100%;
@@ -878,23 +1030,19 @@ contact page design end here
   color: #fff;
   text-transform: uppercase;
 }
-
 .inner-banner .auto-container .pattern-image {
   margin: 15px 0;
 }
-
 .inner-banner .auto-container .pattern-image img {
   width: 150px;
 }
-
 .inner-banner .auto-container h1 {
   font-family: var(--tertiary-font);
   font-weight: 700;
   font-size: 5rem;
   color: #fff;
 }
-
-.inner-banner .image-layer {
+#blog-details .inner-banner .image-layer {
   position: absolute;
   top: 0;
   left: 0;
@@ -905,6 +1053,205 @@ contact page design end here
   background-repeat: no-repeat;
 }
 /* Inner Banner Section End */
+#blog-details .blog-details {
+  padding: 100px 0;
+}
+#blog-details .blog-meta {
+  font-size: 0.9rem;
+  color: #777;
+  font-family: var(--secondary-font);
+}
+
+#blog-details .blog-meta span {
+  margin-right: 15px;
+  text-transform: capitalize;
+  font-family: var(--primary-font);
+}
+
+#blog-details .blog-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 15px 0;
+  color: #333;
+  font-family: var(--primary-font);
+}
+#blog-details .blog-details p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-family: var(--secondary-font);
+}
+
+#blog-details .blockquote-custom {
+  background: #f9f9f9;
+  border-left: 4px solid #d00;
+  padding: 20px;
+  font-style: italic;
+  border-radius: 10px;
+  font-family: var(--secondary-font);
+}
+
+#blog-details .blockquote-custom strong {
+  font-style: normal;
+  font-weight: 600;
+  color: #000;
+  font-family: var(--secondary-font);
+}
+
+/* Sidebar */
+#blog-details .sidebar {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+#blog-details .sidebar h5 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #333;
+  font-family: var(--primary-font);
+}
+
+#blog-details .sidebar .form-control {
+  border-radius: 25px;
+  font-size: 0.9rem;
+}
+
+#blog-details .category-list a {
+  display: block;
+  background: #f6f6f6;
+  border-radius: 25px;
+  padding: 8px 15px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+#blog-details .category-list a:hover {
+  background-color: #d00;
+  color: #fff;
+}
+
+#blog-details .recent-post {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#blog-details .recent-post img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#blog-details .recent-post p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #333;
+  font-family: var(--primary-font);
+}
+
+#blog-details .tags a {
+  display: inline-block;
+  background: #f6f6f6;
+  border-radius: 25px;
+  padding: 6px 15px;
+  margin: 5px 5px 0 0;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  font-weight: 500;
+  font-family: var(--primary-font);
+}
+
+#blog-details .tags a:hover {
+  background: #d00;
+  color: #fff;
+}
+
+#blog-details .ad-banner img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+#blog-details .left-tags {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#blog-details .left-tags a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+  font-weight: 500;
+  font-family: var(--primary-font);
+  background: var(--primary-color);
+  padding: 7px 15px;
+  border: none;
+}
+#blog-details .left-tags a:hover {
+  background: #f6f6f6;
+  color: #000;
+}
+#blog-details .share-icons span {
+  font-size: 20px;
+  color: #333;
+  margin-left: 10px;
+  font-family: var(--primary-font);
+  line-height: 0;
+  vertical-align: middle;
+}
+#blog-details .share-icons a {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 24px;
+  font-family: var(--primary-font);
+  line-height: 0;
+  vertical-align: middle;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  padding: 6px;
+  transition: all 0.3s ease;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  background: var(--primary-color);
+}
+#blog-details .share-icons a:hover {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+@media (max-width: 991px) {
+  #blog-details .sidebar {
+    margin-top: 30px;
+  }
+}
+/*
+blog page design end here 
+*/
+/* Custom Scroll var */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
 /*Contact Info Section*/
 .contact-page {
   position: relative;
@@ -1032,9 +1379,7 @@ contact page design end here
   margin-bottom: -7px;
 }
 /*
-=================================================
 contact page design end here 
-=================================================
 */
 
 /* banner end */
@@ -1284,9 +1629,7 @@ contact page design end here
 /* About Us  end*/
 
 /*
-=================================================
 Checkout page design start here 
-=================================================
 */
 
 /* Checkout Container */
@@ -1495,15 +1838,11 @@ Checkout page design start here
 }
 
 /*
-=================================================
 checkout page design end here 
-=================================================
 */
 
 /*
-=================================================
 My dashboard page design  here 
-=================================================
 */
 
 #myAccount .dashboard-container {
@@ -2056,7 +2395,6 @@ My dashboard page design  here
 }
 
 /*
-=================================================
 My dashboard page design end here =================================================
 */
 
