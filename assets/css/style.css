@@ -15,9 +15,16 @@ ol {
   margin: 0;
   padding: 0;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--primary-font);
 }
+
 body {
   font-family: var(--primary-font);
 }
@@ -449,9 +456,8 @@ body {
   gap: 0;
   margin: 0 10px;
 }
-  #footer
-  .middle-row
-  h4 {
+
+#footer .middle-row h4 {
   font-family: var(--primary-font);
   font-weight: 600;
   font-size: 24px;
@@ -468,15 +474,18 @@ body {
 #footer .middle-row ul li {
   margin: 10px 0;
 }
+
 #footer .middle-row .social-links {
   margin-bottom: 20px;
 }
+
 #footer .middle-row .social-links a {
   color: #fff;
   font-size: 30px;
   gap: 0;
   margin: 0 10px;
 }
+
 #footer hr {
   color: #fff;
   margin: 50px 0;
@@ -595,6 +604,7 @@ body {
   padding: 100px 0 70px 0;
   margin-bottom: 50px;
 }
+
 .contact-page .location-center .cinfo-box {
   padding: 0 0 100px 0;
 }
@@ -605,13 +615,8 @@ body {
   font-size: 34px;
   color: var(--primary-color);
 }
-#contact-page
-  .contact-page
-  .location-center
-  .cinfo-box
-  .contactinfo-block
-  .inner-box
-  .text {
+
+#contact-page .contact-page .location-center .cinfo-box .contactinfo-block .inner-box .text {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -623,6 +628,7 @@ body {
 #contact-page .clearfix {
   padding: 0 30px;
 }
+
 #contact-page .c-page-form-box {
   padding: 100px 0 50px 0;
   text-align: center;
@@ -631,6 +637,7 @@ body {
   /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
   /* margin-bottom: 50px; */
 }
+
 #contact-page .c-page-form-box h2 {
   font-family: var(--tertiary-font);
   font-weight: 700;
@@ -639,6 +646,7 @@ body {
   margin-bottom: 10px;
   padding: 0 20px;
 }
+
 #contact-page .form-section .title-box .desc {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -671,6 +679,7 @@ body {
   outline: none;
   resize: none;
 }
+
 #contact-page .field-inner {
   padding-bottom: 10px;
 }
@@ -717,10 +726,12 @@ body {
 #contact-page .contact-img {
   padding: 0 20px;
 }
+
 #contact-page .contact-img img {
   width: 100%;
   border-radius: 5px;
 }
+
 #contact-page .contact-map {
   margin-top: 50px;
   margin-bottom: -7px;
@@ -741,10 +752,12 @@ blog page design start here
   overflow: hidden;
   padding: 140px 0;
 }
+
 #blog-page .inner-banner {
   width: 100%;
   height: 100%;
 }
+
 #blog-page .inner-banner .auto-container {
   position: relative;
   z-index: 2;
@@ -755,6 +768,7 @@ blog page design start here
   align-items: center;
   text-align: center;
 }
+
 .inner-banner .auto-container .subtitle {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -762,18 +776,22 @@ blog page design start here
   color: #fff;
   text-transform: uppercase;
 }
+
 .inner-banner .auto-container .pattern-image {
   margin: 15px 0;
 }
+
 .inner-banner .auto-container .pattern-image img {
   width: 150px;
 }
+
 .inner-banner .auto-container h1 {
   font-family: var(--tertiary-font);
   font-weight: 700;
   font-size: 5rem;
   color: #fff;
 }
+
 #blog-page .inner-banner .image-layer {
   position: absolute;
   top: 0;
@@ -784,10 +802,12 @@ blog page design start here
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* Inner Banner Section End */
 #blog-page .section-padding {
   padding: 100px 0;
 }
+
 #blog-page .card {
   border: none;
   border-radius: 14px;
@@ -801,6 +821,7 @@ blog page design start here
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+
 #blog-page .card img:hover {
   transform: scale(1.05);
 }
@@ -844,6 +865,7 @@ blog page design start here
   margin-top: 15px;
   cursor: pointer;
 }
+
 #blog-page .learn-more span {
   margin-left: 5px;
   display: inline-block;
@@ -851,6 +873,7 @@ blog page design start here
   line-height: 0;
   vertical-align: middle;
 }
+
 #blog-page .learn-more:hover span {
   transform: translateX(5px);
   transition: 0.3s;
@@ -891,6 +914,7 @@ blog page design start here
   color: #ccc;
   background-color: #f8f9fa;
 }
+
 /* blog page design end here */
 /* blog-details */
 
@@ -1008,10 +1032,12 @@ blog page design start here
   overflow: hidden;
   padding: 140px 0;
 }
+
 #blog-details .inner-banner {
   width: 100%;
   height: 100%;
 }
+
 #blog-details .inner-banner .auto-container {
   position: relative;
   z-index: 2;
@@ -1022,6 +1048,7 @@ blog page design start here
   align-items: center;
   text-align: center;
 }
+
 .inner-banner .auto-container .subtitle {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -1029,18 +1056,22 @@ blog page design start here
   color: #fff;
   text-transform: uppercase;
 }
+
 .inner-banner .auto-container .pattern-image {
   margin: 15px 0;
 }
+
 .inner-banner .auto-container .pattern-image img {
   width: 150px;
 }
+
 .inner-banner .auto-container h1 {
   font-family: var(--tertiary-font);
   font-weight: 700;
   font-size: 5rem;
   color: #fff;
 }
+
 #blog-details .inner-banner .image-layer {
   position: absolute;
   top: 0;
@@ -1051,10 +1082,12 @@ blog page design start here
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* Inner Banner Section End */
 #blog-details .blog-details {
   padding: 100px 0;
 }
+
 #blog-details .blog-meta {
   font-size: 0.9rem;
   color: #777;
@@ -1074,6 +1107,7 @@ blog page design start here
   color: #333;
   font-family: var(--primary-font);
 }
+
 #blog-details .blog-details p {
   font-size: 1rem;
   color: #555;
@@ -1183,11 +1217,13 @@ blog page design start here
   border-radius: 10px;
   margin-top: 15px;
 }
+
 #blog-details .left-tags {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 #blog-details .left-tags a {
   font-size: 0.9rem;
   text-decoration: none;
@@ -1199,10 +1235,12 @@ blog page design start here
   padding: 7px 15px;
   border: none;
 }
+
 #blog-details .left-tags a:hover {
   background: #f6f6f6;
   color: #000;
 }
+
 #blog-details .share-icons span {
   font-size: 20px;
   color: #333;
@@ -1211,6 +1249,7 @@ blog page design start here
   line-height: 0;
   vertical-align: middle;
 }
+
 #blog-details .share-icons a {
   color: #ffffff;
   margin-left: 10px;
@@ -1227,16 +1266,19 @@ blog page design start here
   display: inline-flex;
   background: var(--primary-color);
 }
+
 #blog-details .share-icons a:hover {
   background: #fff;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
 @media (max-width: 991px) {
   #blog-details .sidebar {
     margin-top: 30px;
   }
 }
+
 /*
 blog page design end here 
 */
@@ -1244,45 +1286,47 @@ blog page design end here
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
   border-radius: 10px;
 }
+
 /*Contact Info Section*/
 .contact-page {
   position: relative;
   padding: 100px 0 70px 0;
   margin-bottom: 50px;
 }
+
 .contact-page .location-center .cinfo-box {
   padding: 0 0 100px 0;
 }
+
 .contact-page .location-center .cinfo-box .contactinfo-block .inner-box h4 {
   font-family: var(--tertiary-font);
   font-weight: 700;
   font-size: 34px;
   color: var(--primary-color);
 }
-#contact-page
-  .contact-page
-  .location-center
-  .cinfo-box
-  .contactinfo-block
-  .inner-box
-  .text {
+
+#contact-page .contact-page .location-center .cinfo-box .contactinfo-block .inner-box .text {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   color: #383838;
   margin-top: 10px;
 }
+
 /*  Location form Section */
 #contact-page .clearfix {
   padding: 0 30px;
 }
+
 #contact-page .c-page-form-box {
   padding: 100px 0 50px 0;
   text-align: center;
@@ -1291,6 +1335,7 @@ blog page design end here
   /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
   /* margin-bottom: 50px; */
 }
+
 #contact-page .c-page-form-box h2 {
   font-family: var(--tertiary-font);
   font-weight: 700;
@@ -1299,6 +1344,7 @@ blog page design end here
   margin-bottom: 10px;
   padding: 0 20px;
 }
+
 #contact-page .form-section .title-box .desc {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -1307,6 +1353,7 @@ blog page design end here
   margin-bottom: 40px;
   padding: 0 40px;
 }
+
 /* .form-section{
   padding: 0 20px;
 } */
@@ -1330,23 +1377,29 @@ blog page design end here
   outline: none;
   resize: none;
 }
+
 #contact-page .field-inner {
   padding-bottom: 10px;
 }
+
 #contact-page .field-inner input:focus,
 #contact-page .field-inner textarea:focus {
   border: 1px solid var(--primary-color);
 }
+
 .field-inner textarea::placeholder {
   color: #000000;
 }
+
 #contact-page .field-inner input::placeholder {
   color: #000000;
 }
+
 #contact-page .default-form .form-group textarea {
   min-height: 150px;
   color: #000000;
 }
+
 #contact-page .default-form .form-group button {
   background: var(--primary-color);
   color: #fff;
@@ -1360,23 +1413,28 @@ blog page design end here
   transition: all 0.3s ease;
   width: 100%;
 }
+
 #contact-page .default-form .form-group button:hover {
   background: #fff;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
 /* img */
 #contact-page .contact-img {
   padding: 0 20px;
 }
+
 #contact-page .contact-img img {
   width: 100%;
   border-radius: 5px;
 }
+
 #contact-page .contact-map {
   margin-top: 50px;
   margin-bottom: -7px;
 }
+
 /*
 contact page design end here 
 */
@@ -1385,77 +1443,69 @@ contact page design end here
 
 /* about us  */
 
-#aboutus {
-  background: #fff;
+
+#aboutus_banner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  padding: 200px 0;
 }
 
-#aboutus h5 {
-  font-size: 18px;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
+#aboutus_banner {
+  width: 100%;
+  height: 100%;
 }
 
-#aboutus h2 {
-  font-size: 32px;
-  line-height: 1.3;
+#aboutus_banner .auto-container {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-#aboutus .about-img {
-  border-radius: 10px;
-  transition: 0.3s;
+#aboutus_banner .auto-container .subtitle {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
-#aboutus .about-img:hover {
-  /* transform: scale(1.05); */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+#aboutus_banner .auto-container .pattern-image {
+  margin: 15px 0;
 }
 
-#aboutus .about-img2 {
-  width: 80%;
+#aboutus_banner .auto-container .pattern-image img {
+  width: 150px;
 }
 
-#aboutus .about-img3 {
-  width: 80%;
+#aboutus_banner .auto-container h1 {
+  font-family: var(--tertiary-font);
+  font-weight: 700;
+  font-size: 5rem;
+  color: #fff;
 }
 
-#aboutus .years {
-  border-left: 5px solid var(--primary-color);
-  color: var(--primary-color);
+#aboutus_banner .image-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#aboutus .chefs {
-  color: var(--primary-color);
-  border-left: 5px solid var(--primary-color);
-}
 
-#aboutus p {
-  color: #555;
-  font-size: 15px;
-  line-height: 1.7;
-}
 
-#aboutus .btn-warning {
-  border-radius: 5px;
-  transition: 0.3s;
-}
 
-#aboutus .btn-warning:hover {
-  background: var(--primary-color);
-}
 
-#aboutus .aboutus_heading {
-  font-family: var(--second-family);
-  margin-bottom: 5px;
-  color: var(--primary-color);
-}
 
-#aboutus h2 .text-warning {
-  color: var(--primary-color);
-}
-
-#aboutus .about_subHeading {
-  color: var(--primary-color);
-}
 
 /* about us end */
 
@@ -1572,14 +1622,14 @@ contact page design end here
   grid-auto-flow: dense;
 }
 
-#masonry .grid-wrapper > div {
+#masonry .grid-wrapper>div {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-#masonry .grid-wrapper > div:hover {
+#masonry .grid-wrapper>div:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
@@ -1634,7 +1684,7 @@ Checkout page design start here
 /* Checkout Container */
 #contact-page {
   background: #f0f0f0;
-  padding:0  0 30px 0;
+  padding: 0 0 30px 0;
   /* margin: 30px 0; */
 }
 
@@ -1765,13 +1815,13 @@ Checkout page design start here
   transition: all 0.3s ease;
 }
 
-#checkout_info .payment-method input[type="radio"]:checked + label {
+#checkout_info .payment-method input[type="radio"]:checked+label {
   background: var(--primary-color);
   color: #fff;
   border: none;
 }
 
-#checkout_info .payment-method input[type="radio"]:checked + label .icon {
+#checkout_info .payment-method input[type="radio"]:checked+label .icon {
   background: #fff;
   transform: scale(1.1);
 }
@@ -1868,6 +1918,7 @@ My dashboard page design  here
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
 }
+
 #myAccount .dashboard-header {
   display: flex;
   justify-content: space-between;
@@ -1884,6 +1935,7 @@ My dashboard page design  here
   align-items: center;
   gap: 15px;
 }
+
 #myAccount .logo {
   display: flex;
   align-items: center;
@@ -1902,6 +1954,7 @@ My dashboard page design  here
   font-size: 24px;
   font-family: var(--primary-font);
 }
+
 #myAccount .logo-icon {
   width: 50px;
   height: 50px;
@@ -1921,6 +1974,7 @@ My dashboard page design  here
   color: var(--dark);
   font-family: var(--primary-font);
 }
+
 #myAccount .logo-text h1 {
   font-size: 24px;
   font-weight: 700;
@@ -1933,6 +1987,7 @@ My dashboard page design  here
   color: var(--gray);
   font-family: var(--primary-font);
 }
+
 #myAccount .logo-text p {
   font-size: 14px;
   color: var(--gray);
@@ -1943,6 +1998,7 @@ My dashboard page design  here
   display: flex;
   gap: 15px;
 }
+
 #myAccount .user-actions {
   display: flex;
   gap: 15px;
@@ -1961,6 +2017,7 @@ My dashboard page design  here
   font-size: 14px;
   font-family: var(--primary-font);
 }
+
 #myAccount .btn {
   padding: 12px 24px;
   border-radius: 50px;
@@ -1980,6 +2037,7 @@ My dashboard page design  here
   color: white;
   box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
 }
+
 #myAccount .btn-primary {
   background: var(--primary-color);
   color: white;
@@ -1992,6 +2050,7 @@ My dashboard page design  here
   color: var(--dark);
   border: 2px solid var(--dark);
 }
+
 #myAccount .btn-outline {
   background: transparent;
   color: var(--dark);
@@ -2002,6 +2061,7 @@ My dashboard page design  here
   background: var(--dark);
   color: white;
 }
+
 #myAccount .btn-outline:hover {
   background: var(--dark);
   color: white;
@@ -2012,6 +2072,7 @@ My dashboard page design  here
   grid-template-columns: 320px 1fr;
   gap: 30px;
 }
+
 #myAccount .dashboard-content {
   display: grid;
   grid-template-columns: 320px 1fr;
@@ -2025,6 +2086,7 @@ My dashboard page design  here
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   height: fit-content;
 }
+
 #myAccount .sidebar {
   background: var(--card-bg);
   border-radius: var(--border-radius);
@@ -2039,6 +2101,7 @@ My dashboard page design  here
   border-bottom: 1px solid #f0f0f0;
   margin-bottom: 25px;
 }
+
 #myAccount .profile-card {
   text-align: center;
   padding-bottom: 25px;
@@ -2063,6 +2126,7 @@ My dashboard page design  here
   font-size: 40px;
   font-family: var(--primary-font);
 }
+
 #myAccount .profile-img {
   width: 120px;
   height: 120px;
@@ -2097,6 +2161,7 @@ My dashboard page design  here
   color: white;
   cursor: pointer;
 }
+
 #myAccount .profile-overlay {
   position: absolute;
   top: 0;
@@ -2117,6 +2182,7 @@ My dashboard page design  here
 #myAccount .profile-img:hover .profile-overlay {
   opacity: 1;
 }
+
 #myAccount .profile-img:hover .profile-overlay {
   opacity: 1;
 }
@@ -2127,6 +2193,7 @@ My dashboard page design  here
   margin-bottom: 5px;
   font-family: var(--primary-font);
 }
+
 #myAccount .profile-name {
   font-size: 20px;
   font-weight: 600;
@@ -2139,6 +2206,7 @@ My dashboard page design  here
   font-size: 14px;
   font-family: var(--primary-font);
 }
+
 #myAccount .profile-phone {
   color: var(--gray);
   font-size: 14px;
@@ -2150,6 +2218,7 @@ My dashboard page design  here
   flex-direction: column;
   gap: 8px;
 }
+
 #myAccount .nav-menu {
   display: flex;
   flex-direction: column;
@@ -2169,6 +2238,7 @@ My dashboard page design  here
   font-weight: 500;
   font-family: var(--primary-font);
 }
+
 #myAccount .nav-item {
   padding: 16px 20px;
   border-radius: 12px;
@@ -2190,6 +2260,7 @@ My dashboard page design  here
   color: var(--gray);
   font-family: var(--primary-font);
 }
+
 #myAccount .nav-item i {
   font-size: 20px;
   width: 24px;
@@ -2203,6 +2274,7 @@ My dashboard page design  here
   background: var(--primary-color);
   color: #fff;
 }
+
 #myAccount .nav-item:hover,
 .nav-item.active {
   background: var(--primary-color);
@@ -2213,6 +2285,7 @@ My dashboard page design  here
   font-weight: 600;
   color: #fff;
 }
+
 #myAccount .nav-item.active {
   font-weight: 600;
   color: #fff;
@@ -2221,6 +2294,7 @@ My dashboard page design  here
 #myAccount .nav-item.active i {
   color: var(--primary);
 }
+
 #myAccount .nav-item.active i {
   color: var(--primary);
 }
@@ -2230,6 +2304,7 @@ My dashboard page design  here
   flex-direction: column;
   gap: 30px;
 }
+
 #myAccount .main-content {
   display: flex;
   flex-direction: column;
@@ -2243,6 +2318,7 @@ My dashboard page design  here
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   display: none;
 }
+
 #myAccount .content-section {
   background: var(--card-bg);
   border-radius: var(--border-radius);
@@ -2255,6 +2331,7 @@ My dashboard page design  here
   display: block;
   animation: fadeIn 0.5s ease-out;
 }
+
 #myAccount .content-section.active {
   display: block;
   animation: fadeIn 0.5s ease-out;
@@ -2295,6 +2372,7 @@ My dashboard page design  here
   margin-top: 5px;
   font-family: var(--primary-font);
 }
+
 #myAccount .section-subtitle {
   font-size: 20px;
   color: var(--gray);
@@ -2307,6 +2385,7 @@ My dashboard page design  here
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
 #myAccount .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2316,6 +2395,7 @@ My dashboard page design  here
 #myAccount .form-group {
   margin-bottom: 20px;
 }
+
 #myAccount .form-group {
   margin-bottom: 20px;
 }
@@ -2327,6 +2407,7 @@ My dashboard page design  here
   color: var(--dark);
   font-family: var(--primary-font);
 }
+
 #myAccount .form-label {
   display: block;
   margin-bottom: 8px;
@@ -2353,6 +2434,7 @@ My dashboard page design  here
   background: white;
   box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
 }
+
 #myAccount .form-control:focus {
   border-color: var(--primary);
   outline: none;
@@ -2370,6 +2452,7 @@ My dashboard page design  here
   border-left: 4px solid var(--primary-color);
   font-family: var(--primary-font);
 }
+
 #myAccount .order-card {
   background: white;
   border-radius: 15px;
@@ -2385,6 +2468,7 @@ My dashboard page design  here
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
+
 #myAccount .order-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
@@ -2396,6 +2480,7 @@ My dashboard page design  here
   align-items: center;
   margin-bottom: 15px;
 }
+
 #myAccount .order-header {
   display: flex;
   justify-content: space-between;
@@ -2407,6 +2492,7 @@ My dashboard page design  here
   font-weight: 600;
   color: var(--dark);
 }
+
 #myAccount .order-id {
   font-weight: 600;
   color: var(--dark);
@@ -2416,6 +2502,7 @@ My dashboard page design  here
   color: var(--gray);
   font-size: 14px;
 }
+
 #myAccount .order-date {
   color: var(--gray);
   font-size: 14px;
@@ -2426,6 +2513,7 @@ My dashboard page design  here
   justify-content: space-between;
   margin-bottom: 15px;
 }
+
 #myAccount .order-details {
   display: flex;
   justify-content: space-between;
@@ -2435,6 +2523,7 @@ My dashboard page design  here
 #myAccount .order-items {
   color: var(--dark);
 }
+
 #myAccount .order-items {
   color: var(--dark);
 }
@@ -2443,6 +2532,7 @@ My dashboard page design  here
   font-weight: 600;
   color: var(--primary);
 }
+
 #myAccount .order-total {
   font-weight: 600;
   color: var(--primary);
@@ -2453,6 +2543,7 @@ My dashboard page design  here
   justify-content: space-between;
   align-items: center;
 }
+
 #myAccount .order-footer {
   display: flex;
   justify-content: space-between;
@@ -2466,6 +2557,7 @@ My dashboard page design  here
   font-weight: 600;
   font-family: var(--primary-font);
 }
+
 #myAccount .status-badge {
   padding: 6px 15px;
   border-radius: 50px;
@@ -2478,6 +2570,7 @@ My dashboard page design  here
   background: var(--primary-color);
   color: #eee;
 }
+
 #myAccount .status-processing {
   background: var(--primary-color);
   color: #eee;
@@ -2487,6 +2580,7 @@ My dashboard page design  here
   background: rgba(46, 196, 182, 0.15);
   color: var(--success);
 }
+
 #myAccount .status-completed {
   background: rgba(46, 196, 182, 0.15);
   color: var(--success);
@@ -2502,6 +2596,7 @@ My dashboard page design  here
   transition: var(--transition);
   font-family: var(--primary-font);
 }
+
 #myAccount .view-details {
   color: var(--primary-color);
   text-decoration: none;
@@ -2516,6 +2611,7 @@ My dashboard page design  here
 #myAccount .view-details:hover {
   gap: 8px;
 }
+
 #myAccount .view-details:hover {
   gap: 8px;
 }
@@ -2526,6 +2622,7 @@ My dashboard page design  here
   gap: 20px;
   margin-bottom: 30px;
 }
+
 #myAccount .stats-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2542,6 +2639,7 @@ My dashboard page design  here
   text-align: center;
   border-top: 4px solid var(--primary-color);
 }
+
 #myAccount .stat-card {
   background: white;
   border-radius: 15px;
@@ -2555,6 +2653,7 @@ My dashboard page design  here
 #myAccount .stat-card:hover {
   transform: translateY(-5px);
 }
+
 #myAccount .stat-card:hover {
   transform: translateY(-5px);
 }
@@ -2572,6 +2671,7 @@ My dashboard page design  here
   color: var(--primary-color);
   font-family: var(--primary-font);
 }
+
 #myAccount .stat-icon {
   width: 60px;
   height: 60px;
@@ -2592,6 +2692,7 @@ My dashboard page design  here
   margin-bottom: 5px;
   font-family: var(--primary-font);
 }
+
 #myAccount .stat-value {
   font-size: 28px;
   font-weight: 700;
@@ -2604,6 +2705,7 @@ My dashboard page design  here
   font-size: 14px;
   font-family: var(--primary-font);
 }
+
 #myAccount .stat-label {
   color: var(--gray);
   font-size: 14px;
@@ -2619,6 +2721,7 @@ My dashboard page design  here
   margin-bottom: 20px;
   font-family: var(--primary-font);
 }
+
 #myAccount .mobile-nav {
   display: none;
   background: var(--card-bg);
@@ -2633,6 +2736,7 @@ My dashboard page design  here
   display: flex;
   justify-content: space-around;
 }
+
 #myAccount .mobile-nav-items {
   display: flex;
   justify-content: space-around;
@@ -2650,6 +2754,7 @@ My dashboard page design  here
   color: var(--gray);
   text-decoration: none;
 }
+
 #myAccount .mobile-nav-item {
   display: flex;
   flex-direction: column;
@@ -2667,6 +2772,7 @@ My dashboard page design  here
   font-size: 20px;
   font-family: var(--primary-font);
 }
+
 #myAccount .mobile-nav-item i {
   font-size: 20px;
   font-family: var(--primary-font);
@@ -2676,6 +2782,7 @@ My dashboard page design  here
   font-size: 12px;
   font-family: var(--primary-font);
 }
+
 #myAccount .mobile-nav-item span {
   font-size: 12px;
   font-family: var(--primary-font);
@@ -2685,6 +2792,7 @@ My dashboard page design  here
   background: var(--primary-light);
   color: var(--primary);
 }
+
 #myAccount .mobile-nav-item.active {
   background: var(--primary-light);
   color: var(--primary);
@@ -2695,6 +2803,7 @@ My dashboard page design  here
   gap: 20px;
   margin-top: 20px;
 }
+
 #myAccount .order-summary {
   display: flex;
   gap: 20px;
@@ -2708,6 +2817,7 @@ My dashboard page design  here
   padding: 20px;
   box-shadow: var(--shadow);
 }
+
 #myAccount .order-chart {
   flex: 1;
   background: white;
@@ -2727,6 +2837,7 @@ My dashboard page design  here
   font-size: 14px;
   font-family: var(--primary-font);
 }
+
 #myAccount .chart-placeholder {
   height: 200px;
   background: #f5f5f5;
@@ -2772,6 +2883,7 @@ My dashboard page design  here
     flex-direction: column;
   }
 }
+
 @media (max-width: 992px) {
   #myAccount .dashboard-content {
     grid-template-columns: 1fr;
@@ -2810,6 +2922,7 @@ My dashboard page design  here
     justify-content: center;
   }
 }
+
 @media (max-width: 768px) {
   #myAccount .form-grid {
     grid-template-columns: 1fr;
@@ -2885,7 +2998,7 @@ My dashboard page design end here ==============================================
   background: #fff;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   position: relative;
   min-height: 350px;
@@ -2966,19 +3079,23 @@ My dashboard page design end here ==============================================
   color: #ec1a23;
   font-size: 0.95rem;
 }
+
 .food-menu-title {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
+
 .food-menu-title h3 {
   font-family: var(--tertiary-font);
   font-weight: 700;
   font-size: 50px;
   color: #1a1a1a;
 }
-.food-menu-title h3 span{
-   color: var(--primary-color);
+
+.food-menu-title h3 span {
+  color: var(--primary-color);
 }
+
 .tabs-wrapper {
   display: flex;
   align-items: center;
@@ -2988,6 +3105,7 @@ My dashboard page design end here ==============================================
   margin: 0 auto 40px auto;
   position: relative;
 }
+
 .food-menu-tabs-wrapper {
   overflow-x: auto;
   white-space: nowrap;
@@ -3015,7 +3133,7 @@ My dashboard page design end here ==============================================
 
 .scroll-left-btn:hover,
 .scroll-right-btn:hover {
-    background: #b14500;
+  background: #b14500;
 }
 
 .scroll-left-btn {
@@ -3033,7 +3151,8 @@ My dashboard page design end here ==============================================
 }
 
 .food-menu-tabs-wrapper::-webkit-scrollbar {
-  display: none;}
+  display: none;
+}
 
 /* menu design end here*/
 
@@ -3050,7 +3169,7 @@ My dashboard page design end here ==============================================
 
 .auth-section {
   width: 100%;
-  
+
 }
 
 .container {
@@ -3060,7 +3179,7 @@ My dashboard page design end here ==============================================
 
 
 .row.align-items-stretch {
-  align-items: stretch; 
+  align-items: stretch;
 }
 
 .auth-left {
@@ -3072,14 +3191,14 @@ My dashboard page design end here ==============================================
 .auth-left img {
   width: 90%;
   height: 90%;
-  object-fit: cover; 
+  object-fit: cover;
   display: block;
 }
-   
+
 
 
 .auth-right {
-  background: #fff; 
+  background: #fff;
   padding: 40px;
   border-radius: 12px;
   text-align: center;
@@ -3102,7 +3221,7 @@ My dashboard page design end here ==============================================
 .welcome-text {
   font-size: 28px;
   font-weight: 700;
-  color: #e50914; 
+  color: #e50914;
   margin-bottom: 5px;
 }
 
@@ -3214,183 +3333,188 @@ input:focus {
 
 /*side bar add to cart css start here*/
 .cart iconify-icon {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .notification {
-    position: absolute;
-    top: 8px;
-    right: 10px;
-    background: #fff;
-    color: #ec1a23;
-    border-radius: 50%;
-    font-size: 13px;
-    font-weight: bold;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: #fff;
+  color: #ec1a23;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cart-sidebar {
-    position: fixed;
-    top: 0;
-    right: -400px;
-    width: 380px;
-    height: 100%;
-    background: #fff;
-    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 2000;
-    transition: right 0.4s ease;
-    display: flex;
-    flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 380px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  transition: right 0.4s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .cart-sidebar.active {
-    right: 0;
+  right: 0;
 }
 
 .cart-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 20px;
-    background: #fff;
-    color: #000;
-    box-shadow: 0 2px 10px rgba(133, 123, 123, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  background: #fff;
+  color: #000;
+  box-shadow: 0 2px 10px rgba(133, 123, 123, 0.15);
 }
 
 .cart-close {
-    background: none;
-    border: none;
-    font-size: 26px;
-    color: #575151;
-    cursor: pointer;
-    
+  background: none;
+  border: none;
+  font-size: 26px;
+  color: #575151;
+  cursor: pointer;
+
 }
+
 .cart-items {
-    padding: 20px;
-    overflow-y: auto;
+  padding: 20px;
+  overflow-y: auto;
 }
 
 
 .cart-item-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 15px 0;
-    border-bottom: none;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0;
+  border-bottom: none;
+  gap: 15px;
 }
 
 
 .item-image.yellow-bg-img {
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-    border-radius: 5px;
-    padding: 3px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+  padding: 3px;
 }
 
 .item-details {
-    flex: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: auto; 
-    font-weight: 600;
-    
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+  font-weight: 600;
+
 }
 
 
 .item-price {
-    font-size: 14px;
-    color: #ec1a23;
-    font-weight: 500;
+  font-size: 14px;
+  color: #ec1a23;
+  font-weight: 500;
 }
 
 .item-quantity-controls {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 8px 10px;
-    overflow: hidden;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px 10px;
+  overflow: hidden;
 }
 
 .item-quantity-controls button {
-    border: none;
-    background: none;
-    color: #000;
-    width: 30px;
-    height: 30px;
-    font-weight: normal;
+  border: none;
+  background: none;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  font-weight: normal;
 }
 
 .item-quantity-controls .remove-item-btn {
-    
-    color: #000;
-    font-size: 14px;
-    padding: 5px 8px; 
+
+  color: #000;
+  font-size: 14px;
+  padding: 5px 8px;
 }
 
 .item-quantity {
-    min-width: 20px;
-    text-align: center;
-    padding: 0 5px;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+  min-width: 20px;
+  text-align: center;
+  padding: 0 5px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 .cart-summary {
-    padding: 0 20px 20px 20px; 
+  padding: 0 20px 20px 20px;
 }
 
 .cart-total-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin-bottom: 15px;
 }
 
 .cart-summary strong {
-    font-size: 18px;
-    color: #000;
-    font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
 }
 
 .cart-total-line strong:last-child {
-    font-size: 20px;
-    color: #000;
+  font-size: 20px;
+  color: #000;
 }
 
 .checkout-btn {
-    width: 100%;
-    padding: 12px;
-    background: #ec1a23;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: center; 
-    display: block; 
+  width: 100%;
+  padding: 12px;
+  background: #ec1a23;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  display: block;
 }
-.checkout-btn:hover{
+
+.checkout-btn:hover {
   color: #000;
 }
+
 #blog-page .inner-banner {
   position: relative;
   height: 100%;
   overflow: hidden;
   padding: 140px 0;
 }
+
 #blog-page .inner-banner {
   width: 100%;
   height: 100%;
 }
+
 #blog-page .inner-banner .auto-container {
   position: relative;
   z-index: 2;
@@ -3401,6 +3525,7 @@ input:focus {
   align-items: center;
   text-align: center;
 }
+
 .inner-banner .auto-container .subtitle {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -3408,18 +3533,22 @@ input:focus {
   color: #fff;
   text-transform: uppercase;
 }
+
 .inner-banner .auto-container .pattern-image {
   margin: 15px 0;
 }
+
 .inner-banner .auto-container .pattern-image img {
   width: 150px;
 }
+
 .inner-banner .auto-container h1 {
   font-family: var(--tertiary-font);
   font-weight: 700;
   font-size: 5rem;
   color: #fff;
 }
+
 #blog-page .inner-banner .image-layer {
   position: absolute;
   top: 0;
@@ -3430,10 +3559,12 @@ input:focus {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* Inner Banner Section End */
 #blog-page .section-padding {
   padding: 100px 0;
 }
+
 #blog-page .card {
   border: none;
   border-radius: 14px;
@@ -3447,6 +3578,7 @@ input:focus {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+
 #blog-page .card img:hover {
   transform: scale(1.05);
 }
@@ -3490,6 +3622,7 @@ input:focus {
   margin-top: 15px;
   cursor: pointer;
 }
+
 #blog-page .learn-more span {
   margin-left: 5px;
   display: inline-block;
@@ -3497,6 +3630,7 @@ input:focus {
   line-height: 0;
   vertical-align: middle;
 }
+
 #blog-page .learn-more:hover span {
   transform: translateX(5px);
   transition: 0.3s;
@@ -3537,11 +3671,13 @@ input:focus {
   color: #ccc;
   background-color: #f8f9fa;
 }
+
 /* blog page design end here */
 
 #blog-details .blog-details {
   padding: 100px 0;
 }
+
 #blog-details .blog-meta {
   font-size: 0.9rem;
   color: #777;
@@ -3561,6 +3697,7 @@ input:focus {
   color: #333;
   font-family: var(--primary-font);
 }
+
 #blog-details .blog-details p {
   font-size: 1rem;
   color: #555;
@@ -3670,11 +3807,13 @@ input:focus {
   border-radius: 10px;
   margin-top: 15px;
 }
+
 #blog-details .left-tags {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 #blog-details .left-tags a {
   font-size: 0.9rem;
   text-decoration: none;
@@ -3686,10 +3825,12 @@ input:focus {
   padding: 7px 15px;
   border: none;
 }
+
 #blog-details .left-tags a:hover {
   background: #f6f6f6;
   color: #000;
 }
+
 #blog-details .share-icons span {
   font-size: 20px;
   color: #333;
@@ -3698,6 +3839,7 @@ input:focus {
   line-height: 0;
   vertical-align: middle;
 }
+
 #blog-details .share-icons a {
   color: #ffffff;
   margin-left: 10px;
@@ -3714,16 +3856,19 @@ input:focus {
   display: inline-flex;
   background: var(--primary-color);
 }
+
 #blog-details .share-icons a:hover {
   background: #fff;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
 @media (max-width: 991px) {
   #blog-details .sidebar {
     margin-top: 30px;
   }
 }
+
 /*
 blog page design end here 
 */
@@ -3731,9 +3876,11 @@ blog page design end here
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
   border-radius: 10px;
@@ -3802,75 +3949,76 @@ blog page design end here
 /* ============================= */
 /* Branch Card Style Starts Here */
 /* ============================= */
-    #branch {
-      padding: 60px 0;
-    }
-
-    #branch h2 {
-      font-weight: 700;
-      color: #333;
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-  #branch  .branch-card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
-      margin-bottom: 12px;
-      text-align: center;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      height: 130px;
-      overflow: hidden;
-      position: relative;
-    }
-
-  #branch  .branch-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
-    }
-
-    /* content states */
-  #branch  .branch-card h3{
-      font-size: 22px;
-      
-    }
-  #branch  .branch-card h3,
-  #branch  .branch-card .short-address {
-      opacity: 1;
-      transform: translateY(0);
-      transition: all 0.4s ease;
-    }
-
- #branch  .branch-card .full-address {
-    opacity: 0;
-    transform: translateY(40px);
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 100%;
-    padding: 0 20px;
-    color: #333;
-    font-weight: 500;
-    transition: all 0.4s ease;
-    font-size: 14px;
+#branch {
+  padding: 60px 0;
 }
 
-    /* hover animation */
- #branch   .branch-card:hover h3,
-  #branch  .branch-card:hover .short-address {
-      opacity: 0;
-      transform: translateY(-40px);
+#branch h2 {
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-    }
+#branch .branch-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+  margin-bottom: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 130px;
+  overflow: hidden;
+  position: relative;
+}
 
- #branch   .branch-card:hover .full-address {
-      opacity: 1;
-      transform: translateY(0);
-      color: var(--primary-color);
-    }
+#branch .branch-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* content states */
+#branch .branch-card h3 {
+  font-size: 22px;
+
+}
+
+#branch .branch-card h3,
+#branch .branch-card .short-address {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.4s ease;
+}
+
+#branch .branch-card .full-address {
+  opacity: 0;
+  transform: translateY(40px);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.4s ease;
+  font-size: 14px;
+}
+
+/* hover animation */
+#branch .branch-card:hover h3,
+#branch .branch-card:hover .short-address {
+  opacity: 0;
+  transform: translateY(-40px);
+
+}
+
+#branch .branch-card:hover .full-address {
+  opacity: 1;
+  transform: translateY(0);
+  color: var(--primary-color);
+}
 
 /* ============================= */
 /* Branch Card Style Ends Here   */
