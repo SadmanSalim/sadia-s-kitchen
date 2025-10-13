@@ -441,6 +441,40 @@
 }
 
 
+/*  about us */
+
+/* contact us */
+#aboutus_banner  {
+    padding: 50px 0;
+  }
+
+#aboutus_banner  .auto-container .subtitle {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+#aboutus_banner  .auto-container .pattern-image {
+    margin: 10px 0;
+  }
+
+#aboutus_banner  .auto-container .pattern-image img {
+    width: 100px;
+  }
+
+#aboutus_banner  .auto-container h1 {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+
+#our-story {
+    padding: 3rem 0;
+}
+
+
+
+
+
+
 .food-menu-container {
   display: flex;
   flex-wrap: wrap;
