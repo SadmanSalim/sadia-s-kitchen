@@ -52,6 +52,107 @@
     font-size: 40px;
   }
 
+  /*new header menu start*/
+.menu-filter-row {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 30px;
+    gap: 10px;
+  }
+
+  /* Hide input, show icon */
+  .menu-search-box input {
+    display: none;
+  }
+
+  .menu-search-icon {
+    display: flex;
+  }
+
+  /* Keep sort box normal */
+  .menu-sort {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .menu-sort label {
+    font-size: 14px;
+  }
+
+  .menu-sort select {
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+    .menu-search-box {
+    flex: 0 0 auto; /* let icon size itself */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* ===========================
+   Header Responsive Layout
+=========================== */
+
+    /* Hide left header info */
+  .menu-header-left {
+    display: none;
+  }
+
+  /* Header layout turns into flex */
+  .menu-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  /* Left = logo */
+  .menu-logo-center {
+    justify-content: flex-start;
+  }
+
+  .menu-logo-img {
+    width: 110px;
+  }
+
+
+
+  /* Right = feedback + contact same as before */
+  .menu-header-right {
+    align-items: flex-end;
+  }
+
+  /* Show the moved text below header */
+  .menu-details-mobile {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .menu-details-mobile h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .menu-details-mobile p {
+    font-size: 13px;
+    color: #333;
+  }
+
+
+ /*new header menu end*/
+
+   .food-menu-tabs {
+    margin-bottom: 20px;
+    }
+  .delivery-toggle {
+    margin: 15px 0;
+ 
+  }
+
   #happy_customer .heading_text h3 {
     font-size: 30px;
   }
@@ -95,6 +196,9 @@
     width: 80px;
     height: 75px;
   }
+.tabs-wrapper {
+    margin: 0 auto 0 auto;
+}
 
   #menu .contents .menu-item h4 {
     left: 20px;
@@ -455,7 +559,7 @@
 }
 
 .food-menu-section {
-  padding: 20px 20px;
+  padding: 10px 20px;
 }
 
 .scroll-left-btn,
@@ -682,4 +786,23 @@
     margin-left: 0px;
     font-size: 16px;
   }
+
+    .feedback-section {
+    padding: 28px 0;
+  }
+  .staff-behaviour-options {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+
+
+
+
+
+
+
+
+
+ 
+
 }

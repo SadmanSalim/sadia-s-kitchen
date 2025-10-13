@@ -32,79 +32,88 @@
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
 
-  <!-- header part start here -->
-  <header>
-    <!-- *Nav Bar Start Heer -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand order-1 order-lg-0" href="index.html">
-          <img src="./assets/img/logo.png" class="img-fluid" alt="logo" />
-        </a>
-        <button
-          class="navbar-toggler order-0"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <iconify-icon class="iconify-icon" icon="hugeicons:menu-03"></iconify-icon>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Our Brands
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item button-nav d-none d-lg-flex">
-              <a class="order-button" href="#">
-                Order Now
-                <iconify-icon
-                  class="iconify-icon"
-                  icon="hugeicons:shopping-basket-03"
-                ></iconify-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="search-icon order-2 d-lg-none">
-          <a href=""><iconify-icon icon="ri:search-line"></iconify-icon></a>
+  <body>
+    <!-- ======================
+         HEADER PART START
+    ======================= -->
+<header class="menu-header-sadia">
+  <div class="container">
+    <div class="menu-header-wrapper">
+      <!-- Left Section (Hidden on mobile) -->
+      <div class="menu-header-left">
+        <div class="menu-details-text">
+          <h1 class="menu-title-h1">Sadia's Kitchen - CHK</h1>
+          <p class="menu-address-p">College Rd., Chawkbazar</p>
         </div>
       </div>
-    </nav>
-    <!-- *Nav Bar Ends Here -->
-  </header>
-  <!-- header part end here -->
 
-  <body>
-    <main>
+      <!-- Center Logo -->
+      <div class="menu-logo-center">
+        <a href="./index.html"><img
+          src="./assets/img/sadia's kichen logo 2.jpeg"
+          alt="Kitchen Logo"
+          class="menu-logo-img img-fluid"
+        /></a>
+      </div>
+
+      <!-- Right Section -->
+      <div class="menu-header-right">
+        <div class="menu-contact-right-group">
+          <a href="./feedback.html" class="menu-feedback-btn">
+            <span class="menu-icon-chat">
+              <i class="fa-solid fa-message" style="color: #fff"></i>
+            </span>
+            Feedback
+          </a>
+          <div class="menu-contact-info d-none d-lg-block">
+            <p class="menu-phone-p">
+              <span class="menu-icon-ph">
+                <i class="fa-solid fa-phone" style="color: #000"></i>
+              </span>
+              016 1544 5566
+            </p>
+            <p class="menu-time-p">
+              <span class="menu-icon-time">
+                <i class="fa-solid fa-clock"></i>
+              </span>
+              9:00 AM - 11:00 PM
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <!-- ======================
+         HEADER PART END
+    ======================= -->
+<main>
       <section class="food-menu-section">
-        <!-- Section Title -->
-        <div class="food-menu-title">
-          <h3>Sadia’s <span>feast</span> menu</h3>
+        <!-- Title visible only on mobile -->
+        <div class="menu-details-mobile">
+          <h1 class="menu-title-h1">Sadia's Kitchen - CHK</h1>
+          <p class="menu-address-p">College Rd., Chawkbazar</p>
+                      <div class="menu-contact-info">
+              <p class="menu-phone-p">
+                <span class="menu-icon-ph"
+                  ><i class="fa-solid fa-phone" style="color: #000"></i
+                ></span>
+                016 1544 5566
+              </p>
+              <p class="menu-time-p">
+                <span class="menu-icon-time"
+                  ><i class="fa-solid fa-clock"></i
+                ></span>
+                9:00 AM - 11:00 PM
+              </p>
+            </div>
+        </div>
+
+        <!-- Delivery / Take Away Toggle -->
+        <div class="delivery-toggle">
+          <a href="#" class="toggle-btn active">Delivery</a>
+          <a href="#" class="toggle-btn">Take Away</a>
         </div>
 
         <!-- Scrollable Tabs -->
@@ -121,8 +130,10 @@
               <button class="menu-tab-btn" data-category="dessert">Dessert</button>
               <button class="menu-tab-btn" data-category="drinks">Drinks</button>
               <button class="menu-tab-btn" data-category="snacks">Snacks</button>
-              <button class="menu-tab-btn" data-category="snacks">Snacks</button>
-              <button class="menu-tab-btn" data-category="snacks">Snacks</button>
+              <button class="menu-tab-btn" data-category="snacks">Water</button>
+              <button class="menu-tab-btn" data-category="snacks">Sharma</button>
+              <button class="menu-tab-btn" data-category="snacks">Chicken Fry</button>
+              <button class="menu-tab-btn" data-category="snacks">Cake</button>
             </div>
           </div>
           <button class="scroll-right-btn">
@@ -130,8 +141,47 @@
           </button>
         </div>
 
-        <!-- Menu Items Container -->
+        <!-- Search + Sort Section -->
+        <section class="menu-filter-section">
+          <div class="container">
+            <div class="menu-filter-row">
+              <!-- Search Box -->
+              <div class="menu-search-box">
+                <input type="text" id="menuSearch" placeholder="Search..." />
+                <button class="menu-search-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+
+              <!-- Sort Dropdown -->
+              <div class="menu-sort">
+                <label for="sortMenu">Sort By:</label>
+                <select id="sortMenu">
+                  <option value="featured">Featured</option>
+                  <option value="price-low">Price: Low to High</option>
+                  <option value="price-high">Price: High to Low</option>
+                  <option value="name">Name A–Z</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Menu Items -->
         <div class="food-menu-container">
+          <!-- Example item -->
+          <div class="food-menu-item" data-category="breakfast">
+            <div class="food-menu-img">
+              <img src="./assets/img/menu-1.jpg" alt="Pancakes" />
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="food-menu-info">
+              <h3>Pancakes</h3>
+              <p>Fluffy pancakes with honey & butter.</p>
+              <span>৳300</span>
+            </div>
+          </div>
+
           <!-- Breakfast -->
           <div class="food-menu-item" data-category="breakfast">
             <div class="food-menu-img">
@@ -231,8 +281,8 @@
               <span>৳300</span>
             </div>
           </div>
-          <!--drinks-->
 
+          <!-- Drinks -->
           <div class="food-menu-item" data-category="drinks">
             <div class="food-menu-img">
               <img src="./assets/img/menu-4.png" alt="Grilled Chicken" />
@@ -244,8 +294,8 @@
               <span>৳300</span>
             </div>
           </div>
-          <!--snacks-->
 
+          <!-- Snacks -->
           <div class="food-menu-item" data-category="snacks">
             <div class="food-menu-img">
               <img src="./assets/img/menu-4.png" alt="Grilled Chicken" />
@@ -257,92 +307,122 @@
               <span>৳300</span>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
+
+    </div>
+  </section>
+</main>
+
 
     <!-- footer Start here -->
     <footer>
-      <div class="contianer-fluid" id="footer">
-        <div class="container">
-          <div class="content">
-            <div class="row">
-              <div class="col-lg-4 text-lg-start text-center left-row">
-                <img src="./assets/img/logo.png" class="img-fluid" alt="logo" />
-                <p>
-                  Nestled in the heart of Chattogram since 2013, Sadia’s Kitchen
-                  brings fresh, flavorful meals straight to your table.
-                </p>
-                <div class="social-links">
-                  <a href="">
-                    <iconify-icon
-                      class="iconify-icon"
-                      icon="ic:baseline-facebook"
-                    ></iconify-icon>
-                  </a>
-                  <a href="">
-                    <iconify-icon
-                      class="iconify-icon"
-                      icon="mdi:youtube"
-                    ></iconify-icon>
-                  </a>
-                  <a href="">
-                    <iconify-icon
-                      class="iconify-icon"
-                      icon="mdi:instagram"
-                    ></iconify-icon>
-                  </a>
+        <div class="contianer-fluid" id="footer">
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-lg-4 text-lg-start  left-row">
+                            <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
+                            <p>Nestled in the heart of Chattogram since 2013, Sadia’s Kitchen brings fresh, flavorful
+                                meals straight to your table.</p>
+                            <div class="social-links d-none d-lg-block">
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 middle-row">
+                            <h4>Important Links</h4>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Our Menus</a></li>
+                                <li><a href="">Blogs</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                            <div class="social-links d-lg-none">
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 right-row text-lg-end text-center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 text-lg-start text-center">
+                                <p>Copyright <iconify-icon class="iconify-icon"
+                                        icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's Kitchen.All Rights
+                                    Reserved</p>
+                            </div>
+                            <div class="col-lg-6 col-12 text-lg-end text-center">
+                                <p>Developed By <a href="">Brand Boosters</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-
-              <div class="col-lg-4 middle-row text-center">
-                <h4>Important Links</h4>
-                <ul>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">About</a></li>
-                  <li><a href="">Our Menus</a></li>
-                  <li><a href="">Blogs</a></li>
-                  <li><a href="">Contact Us</a></li>
-                </ul>
-              </div>
-
-              <div class="col-lg-4 right-row text-lg-end text-center">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
             </div>
-
-            <hr />
-
-            <div class="copyright">
-              <div class="row">
-                <div class="col-lg-6 col-12 text-lg-start text-center">
-                  <p>
-                    Copyright
-                    <iconify-icon
-                      class="iconify-icon"
-                      icon="ic:baseline-copyright"
-                    ></iconify-icon>
-                    2025 Sadia's Kitchen. All Rights Reserved
-                  </p>
-                </div>
-                <div class="col-lg-6 col-12 text-lg-end text-center">
-                  <p>
-                    Developed By <a href="">Brand Boosters</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </footer>
     <!-- footer End here -->
+
+        <!--CART SIDEBAR START HERE-->
+
+    <div class="cart d-flex justify-content-center align-items-center">
+        <div class="notification d-flex align-items-center justify-content-center">
+            <span>1</span>
+        </div>
+        <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
+    </div>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="cart-items">
+            <div class="cart-item-container">
+                <img src="./assets/img/menu-4.png" alt="Set Menu 4 Image" class="item-image yellow-bg-img">
+
+                <div class="item-details">
+                    <span class="item-name">Set Menu 4</span>
+                    <span class="item-price">Tk 698.00</span>
+                </div>
+
+                <div class="item-quantity-controls">
+                    <button class="remove-item-btn trash-icon"><i class="fa-solid fa-trash"></i></button>
+                    <span class="item-quantity">1</span>
+                    <button class="increase-quantity-btn"><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <div class="cart-total-line">
+                <strong>Total:</strong>
+                <strong>669 BDT</strong>
+            </div>
+            <a class="checkout-btn" href="">Checkout</a>
+        </div>
+    </div>
+    <!--CART SIDEBAR END HERE-->
 
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -350,3 +430,9 @@
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
+
+
+
+
+
+
