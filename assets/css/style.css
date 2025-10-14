@@ -3748,6 +3748,54 @@ blog page design end here
 /* ============================= */
 /* Branch Card Style Starts Here */
 /* ============================= */
+
+
+#branch_nav {
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      padding: 10px 0;
+      background: #fff;
+    }
+
+    #branch_nav .navbar-brand img {
+      max-height: 55px;
+    }
+
+    #branch_nav .search-option {
+      position: relative;
+    }
+
+    #branch_nav .search-option input {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 25px;
+      padding: 10px 45px 10px 15px;
+      font-size: 15px;
+      transition: all 0.3s ease;
+    }
+
+    #branch_nav .search-option input:focus {
+      outline: none;
+      border-color: var(--primary-color);
+      box-shadow: 0 0 5px rgba(229, 9, 20, 0.3);
+    }
+
+    #branch_nav .search-option button {
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+      background: var(--primary-color);
+      color: #fff;
+      border: none;
+      padding: 9px 15px;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+
+
+
 #branch {
   padding: 60px 0;
 }
