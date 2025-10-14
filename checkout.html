@@ -79,191 +79,180 @@
   <div class="overlay" id="overlay"></div>
   <main id="contact-page">
 
-    <!-- MAIN CHECKOUT CONTAINER -->
-    <div class="container" id="checkout_info">
-      <h1 class="text-left checkout_heading">Review Your Details & Confirm Order</h1>
-      <form action="#">
-        <div class="row">
-          <!-- LEFT -->
-          <div class="col-lg-7">
-            <div class="form-section">
-              <h2>Delivery Information</h2>
-              <div class="form-grid">
-                <div>
-                  <label for="">Name <span class="text-danger">*</span></label>
-                  <input type="text" placeholder="Name">
-                </div>
-                <div>
-                  <label for="">Mobile Number <span class="text-danger">*</span></label>
-                  <input type="text" placeholder="Mobile Number">
-                </div>
-                <div>
-                  <label for="">Email <span class="text-danger">*</span></label>
-                  <input type="email" placeholder="Email">
-                </div>
-                <div>
-                  <label for="">Select Branch <span class="text-danger">*</span></label>
-                  <select>
-                    <option value="">Select Branch</option>
-                    <option value="Dhaka">Dhaka Branch</option>
-                    <option value="Chittagong">Chittagong Branch</option>
-                    <option value="Sylhet">Sylhet Branch</option>
-                  </select>
-                </div>
+ <!-- MAIN CHECKOUT CONTAINER -->
+  <div class="container" id="checkout_info">
+    <form action="#">
+      <div class="row">
+        <!-- LEFT -->
+        <div class="col-lg-7">
+          <div class="form-section">
+            <h2>Delivery Information</h2>
+            <div class="form-grid">
+              <div>
+                <label for="">Name <span class="text-danger">*</span></label>
+                <input type="text" placeholder="Name">
               </div>
-              <div class="mb-3">
-                <label for="">Address <span class="text-danger">*</span></label>
-                <input type="text" placeholder="Address">
+              <div>
+                <label for="">Mobile Number <span class="text-danger">*</span></label>
+                <input type="text" placeholder="Mobile Number">
               </div>
-              <div class="mb-3">
-                <label for="">Order Note</label>
-                <textarea placeholder="Order Note"></textarea>
+              <div>
+                <label for="">Email <span class="text-danger">*</span></label>
+                <input type="email" placeholder="Email">
               </div>
-
+              <div>
+                <label for="">Select Branch <span class="text-danger">*</span></label>
+                <select>
+                  <option value="">Select Branch</option>
+                  <option value="Dhaka">Dhaka Branch</option>
+                  <option value="Chittagong">Chittagong Branch</option>
+                  <option value="Sylhet">Sylhet Branch</option>
+                </select>
+              </div>
             </div>
-
+            <div class="mb-3">
+              <label for="">Address <span class="text-danger">*</span></label>
+              <input type="text" placeholder="Address">
+            </div>
+            <div class="mb-3">
+              <label for="">Order Note</label>
+              <textarea placeholder="Order Note"></textarea>
+            </div>
             <div class="payment-section">
               <h2>Select Payment Method</h2>
               <div class="payment-method">
-                <div class="payment-option">
-                  <input type="radio" id="pay-online" name="payment" value="online">
-                  <label for="pay-online">
-                    <iconify-icon icon="uil:atm-card" width="42" height="42"></iconify-icon>
-                    <span class="text">Online Payment</span>
-                  </label>
-                </div>
-                <div class="payment-option">
-                  <input type="radio" id="pay-cod" name="payment" value="cod" checked>
-                  <label for="pay-cod">
-                    <iconify-icon icon="tdesign:money-filled" width="42" height="42"></iconify-icon>
-                    <span class="text">Cash on Delivery</span>
-                  </label>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-
-
-
-          <!-- RIGHT -->
-          <div class="col-lg-5">
-            <div class="order-summary">
-              <h2>Order Summary</h2>
-              <div class="order-item">
-                <span>Portable Stereo Speaker</span>
-                <span class="price" data-price="230.49">$230.49</span>
-              </div>
-              <div class="order-item">
-                <span>Portable Stereo Speaker</span>
-
-                <span class="price" data-price="230.49">$230.49</span>
-              </div>
-              <div class="order-item">
-                <span>Portable Stereo Speaker</span>
-
-                <span class="price" data-price="230.49">$230.49</span>
-              </div>
-
-              <div class="summary-total">
-                <div><span>Subtotal</span><span id="subtotal">$1190.69</span></div>
-                <div><span>Shipping</span><span>Free</span></div>
-                <div><strong>Total</strong><strong id="total">$1190.69</strong></div>
-              </div>
-
-
-
-              <button type="button" class="confirm-btn" onclick="confirmOrder()">Confirm Order</button>
+  <div class="payment-option">
+    <input type="radio" id="pay-online" name="payment" value="online">
+    <label for="pay-online">
+      <span class="icon">💳</span>
+      <span class="text">Online Payment</span>
+    </label>
+  </div>
+  <div class="payment-option">
+    <input type="radio" id="pay-cod" name="payment" value="cod" checked>
+    <label for="pay-cod">
+      <span class="icon">💵</span>
+      <span class="text">Cash on Delivery</span>
+    </label>
+  </div>
+</div>
             </div>
           </div>
         </div>
-      </form>
-    </div>
 
+        <!-- RIGHT -->
+        <div class="col-lg-5">
+          <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="order-item">
+              <span>Portable Stereo Speaker</span>              
+              <span class="price" data-price="230.49">$230.49</span>
+            </div>
+            <div class="order-item">
+              <span>Portable Stereo Speaker</span>
+             
+              <span class="price" data-price="230.49">$230.49</span>
+            </div>
+            <div class="order-item">
+              <span>Portable Stereo Speaker</span>
+              
+              <span class="price" data-price="230.49">$230.49</span>
+            </div>
 
+            <div class="summary-total">
+              <div><span>Subtotal</span><span id="subtotal">$1190.69</span></div>
+              <div><span>Shipping</span><span>Free</span></div>
+              <div><strong>Total</strong><strong id="total">$1190.69</strong></div>
+            </div>
+            <button type="button" class="confirm-btn" onclick="confirmOrder()">Confirm Order</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+   
   </main>
 
 
   <!-- footer Start here -->
-  <footer>
-    <div class="contianer-fluid" id="footer">
-      <div class="container">
-        <div class="content">
-          <div class="row">
-            <div class="col-lg-4 text-lg-start text-center left-row">
-              <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
-              <p>Nestled in the heart of Chattogram since 2013, Sadia’s Kitchen brings fresh, flavorful
-                meals straight to your table.</p>
-              <div class="social-links d-none d-lg-block">
-                <a href="">
-                  <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
-                </a>
-                <a href="">
-                  <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
-                </a>
-                <a href="">
-                  <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
-                </a>
-              </div>
+    <footer>
+        <div class="contianer-fluid" id="footer">
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-lg-4 text-lg-start  left-row">
+                            <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
+                            <p>Nestled in the heart of Chattogram since 2013, Sadia’s Kitchen brings fresh, flavorful
+                                meals straight to your table.</p>
+                            <div class="social-links d-none d-lg-block">
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 middle-row">
+                            <h4>Important Links</h4>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Our Menus</a></li>
+                                <li><a href="">Blogs</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                            <div class="social-links d-lg-none">
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                                </a>
+                                <a href="">
+                                    <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 right-row text-lg-end text-center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-lg-6 col-12 text-lg-start text-center">
+                                <p>Copyright <iconify-icon class="iconify-icon"
+                                        icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's Kitchen.All Rights
+                                    Reserved</p>
+                            </div>
+                            <div class="col-lg-6 col-12 text-lg-end text-center">
+                                <p>Developed By <a href="">Brand Boosters</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4 middle-row">
-              <h4>Important Links</h4>
-              <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Our Menus</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">Contact Us</a></li>
-              </ul>
-              <div class="social-links d-lg-none">
-                <a href="">
-                  <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
-                </a>
-                <a href="">
-                  <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
-                </a>
-                <a href="">
-                  <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-4 right-row text-lg-end text-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-          <hr>
-          <div class="copyright">
-            <div class="row">
-              <div class="col-lg-6 col-12 text-lg-start text-center">
-                <p>Copyright <iconify-icon class="iconify-icon" icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's
-                  Kitchen.All Rights
-                  Reserved</p>
-              </div>
-              <div class="col-lg-6 col-12 text-lg-end text-center">
-                <p>Developed By <a href="">Brand Boosters</a></p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
   <!-- footer End here -->
-
+  
   <div class="cart d-flex justify-content-center align-items-center">
     <div class="notification d-flex align-items-center justify-content-center">
       <span>1</span>
     </div>
     <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
   </div>
-
-
-
+  
+  
+  
   <script src="./assets/js/jquery-3.7.1.min.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
