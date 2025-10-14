@@ -26,59 +26,62 @@
 
 <body>
 
-    <header>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand order-1 order-lg-0" href="index.html">
-          <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
-        </a>
+<header>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg" id="sk-navbar">
+    <div class="container">
+      <a class="navbar-brand order-1 order-lg-0" href="index.html">
+        <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
+      </a>
 
-        <!-- Sidebar Toggle Button -->
-        <button class="navbar-toggler order-0" type="button" id="menuToggle">                       `
-          <iconify-icon class="iconify-icon" icon="hugeicons:menu-03"></iconify-icon>
-        </button>
+      <!-- Sidebar Toggle Button -->
+      <button class="navbar-toggler order-0" type="button" id="sk-menuToggle">
+        <iconify-icon class="iconify-icon" icon="hugeicons:menu-03"></iconify-icon>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./menu.html">Menus</a></li>
-            <li class="nav-item"><a class="nav-link" href="./about_us.html">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
-            <li class="nav-item button-nav d-none d-lg-flex">
-              <a class="order-button" href="#">Order Now
-                <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="search-icon order-2 d-lg-none">
-          <a href=""><iconify-icon icon="ri:search-line"></iconify-icon></a>
-        </div>
+      <div class="collapse navbar-collapse" id="sk-navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./menu.html">Menus</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about_us.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
+          <li class="nav-item button-nav d-none d-lg-flex">
+            <a class="order-button" href="#">Order Now
+              <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Navbar End -->
-  </header>
 
-  <!-- Sidebar -->
-  <div class="sidebar" id="sidebar">
-      <a  href="./index.html"><img  width="80px"  src="./assets/img/logo.png" alt=""></a>
-    <span class="close-btn" id="closeSidebar">&times;</span>
-    <ul class="mt-5">
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./menu.html">Menus</a></li>
-      <li><a href="./about_us.html">About Us</a></li>
-      <li><a href="./blog.html">Blog</a></li>
-      <li><a href="./contact.html">Contact Us</a></li>
-      <li><a class="order-button" href="#">Order Now  <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon></a></li>
-    </ul>
-  </div>
+      <div class="search-icon order-2 d-lg-none">
+        <a href=""><iconify-icon icon="ri:search-line"></iconify-icon></a>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+</header>
 
-  <!-- Overlay -->
-  <div class="overlay" id="overlay"></div>
+<!-- Sidebar -->
+<div class="sk-sidebar" id="sk-sidebar">
+  <a href="./index.html"><img width="80px" src="./assets/img/logo.png" alt=""></a>
+  <span class="sk-close-btn" id="sk-closeSidebar">&times;</span>
+  <ul class="mt-5">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./menu.html">Menus</a></li>
+    <li><a href="./about_us.html">About Us</a></li>
+    <li><a href="./blog.html">Blog</a></li>
+    <li><a href="./contact.html">Contact Us</a></li>
+    <li>
+      <a class="order-button" href="#">
+        Order Now <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
+      </a>
+    </li>
+  </ul>
+</div>
 
+<!-- Overlay -->
+<div class="sk-overlay" id="sk-overlay"></div>
 
 
     <main>
@@ -430,26 +433,25 @@
 
 
 
-const menuToggle = document.getElementById('menuToggle');
-    const sidebar = document.getElementById('sidebar');
-    const overlay = document.getElementById('overlay');
-    const closeSidebar = document.getElementById('closeSidebar');
+ const skMenuToggle = document.getElementById("sk-menuToggle");
+  const skSidebar = document.getElementById("sk-sidebar");
+  const skCloseSidebar = document.getElementById("sk-closeSidebar");
+  const skOverlay = document.getElementById("sk-overlay");
 
-    menuToggle.addEventListener('click', () => {
-      sidebar.classList.toggle('active');
-      overlay.classList.toggle('active');
-    });
+  skMenuToggle.addEventListener("click", () => {
+    skSidebar.classList.add("active");
+    skOverlay.classList.add("active");
+  });
 
-    closeSidebar.addEventListener('click', () => {
-      sidebar.classList.remove('active');
-      overlay.classList.remove('active');
-    });
+  skCloseSidebar.addEventListener("click", () => {
+    skSidebar.classList.remove("active");
+    skOverlay.classList.remove("active");
+  });
 
-    overlay.addEventListener('click', () => {
-      sidebar.classList.remove('active');
-      overlay.classList.remove('active');
-    });
-
+  skOverlay.addEventListener("click", () => {
+    skSidebar.classList.remove("active");
+    skOverlay.classList.remove("active");
+  });
 
 
     </script>

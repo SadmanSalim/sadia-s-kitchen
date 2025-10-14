@@ -27,9 +27,9 @@
   .banner-content {
     height: 200px;
   }
-.sidebar ul li .order-button {
-    width: 180px;
-}
+
+
+  
  #business_details .contents .col {
     margin: 10px 0;
   }
@@ -841,4 +841,13 @@
 
  
 
+}
+
+
+@media (min-width: 992px) {
+  .sk-sidebar,
+  .sk-overlay {
+    display: none;
+  }
+  
 }
