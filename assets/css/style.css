@@ -3100,15 +3100,13 @@ input:focus {
 
 /* ================   Signup / Login Design End================*/
 
-
-
-
-
 /*side bar add to cart css start here*/
 .cart iconify-icon {
   font-size: 30px;
 }
-
+.cart{
+  cursor: pointer;
+}
 .notification {
   position: absolute;
   top: 8px;
@@ -3137,6 +3135,7 @@ input:focus {
   transition: right 0.4s ease;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .cart-sidebar.active {
@@ -3270,6 +3269,8 @@ input:focus {
   cursor: pointer;
   text-align: center;
   display: block;
+  transition: all 0.3s ease;
+  border: 1px solid #ec1a23;
 }
 .checkout-btn:hover{
   color: #ec1a23;
@@ -3891,6 +3892,7 @@ blog page design end here
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border: 1px solid var(--primary-color);
   }
 
   .feedback-btn-submit:hover {
