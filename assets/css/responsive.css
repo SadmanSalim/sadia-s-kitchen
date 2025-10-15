@@ -28,9 +28,7 @@
     height: 200px;
   }
 
-
-  
- #business_details .contents .col {
+  #business_details .contents .col {
     margin: 10px 0;
   }
 
@@ -55,7 +53,7 @@
   }
 
   /*new header menu start*/
-.menu-filter-row {
+  .menu-filter-row {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
@@ -86,18 +84,18 @@
     font-size: 14px;
     padding: 7px 10px;
   }
-    .menu-search-box {
+  .menu-search-box {
     flex: 0 0 auto; /* let icon size itself */
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-/* ===========================
+  /* ===========================
    Header Responsive Layout
 =========================== */
 
-    /* Hide left header info */
+  /* Hide left header info */
   .menu-header-left {
     display: none;
   }
@@ -118,8 +116,6 @@
   .menu-logo-img {
     width: 110px;
   }
-
-
 
   /* Right = feedback + contact same as before */
   .menu-header-right {
@@ -144,15 +140,13 @@
     color: #333;
   }
 
+  /*new header menu end*/
 
- /*new header menu end*/
-
-   .food-menu-tabs {
+  .food-menu-tabs {
     margin-bottom: 20px;
-    }
+  }
   .delivery-toggle {
     margin: 15px 0;
- 
   }
 
   #happy_customer .heading_text h3 {
@@ -198,9 +192,9 @@
     width: 80px;
     height: 75px;
   }
-.tabs-wrapper {
+  .tabs-wrapper {
     margin: 0 auto 0 auto;
-}
+  }
 
   #menu .contents .menu-item h4 {
     left: 20px;
@@ -527,100 +521,95 @@
   #myAccount .form-grid {
     gap: 9px;
   }
-  
-#myAccount .section-title {
-  font-size: 18px;
-  font-weight: 600;
-}
 
-#myAccount .section-subtitle {
-  font-size: 15px;
-}
+  #myAccount .section-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
 
-#myAccount .section-header {
-  display: block;
-}
+  #myAccount .section-subtitle {
+    font-size: 15px;
+  }
 
-#myAccount .nav-item {
-  padding: 16px 9px;
-  gap: 6px;
-}
+  #myAccount .section-header {
+    display: block;
+  }
 
+  #myAccount .nav-item {
+    padding: 16px 9px;
+    gap: 6px;
+  }
 
-/*  about us */
+  /*  about us */
 
-/* contact us */
-#aboutus_banner  {
+  /* contact us */
+  #aboutus_banner {
     padding: 50px 0;
   }
 
-#aboutus_banner  .auto-container .subtitle {
+  #aboutus_banner .auto-container .subtitle {
     font-weight: 400;
     font-size: 14px;
   }
 
-#aboutus_banner  .auto-container .pattern-image {
+  #aboutus_banner .auto-container .pattern-image {
     margin: 10px 0;
   }
 
-#aboutus_banner  .auto-container .pattern-image img {
+  #aboutus_banner .auto-container .pattern-image img {
     width: 100px;
   }
 
-#aboutus_banner  .auto-container h1 {
+  #aboutus_banner .auto-container h1 {
     font-weight: 600;
     font-size: 3rem;
   }
 
-#our-story {
+  #our-story {
     padding: 3rem 0;
+  }
+
+  .cart-sidebar {
+    width: 90%;
+  }
+  .food-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .food-menu-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-height: 343px;
+  }
+
+  .food-menu-section {
+    padding: 10px 20px;
+  }
+
+  .scroll-left-btn,
+  .scroll-right-btn {
+    display: none !important;
+  }
+
+  .auth-left {
+    display: none;
+  }
+
+  .auth-right {
+    margin-top: 30px;
+  }
+
+  .auth-section {
+    padding: 0;
+  }
+
+  .main-color {
+    min-height: 10vh;
+  }
 }
-
-
-
-
-
-
-.food-menu-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.food-menu-item {
-  flex: 0 0 100%;
-  max-width: 100%;
-  min-height: 343px;
-}
-
-.food-menu-section {
-  padding: 10px 20px;
-}
-
-.scroll-left-btn,
-.scroll-right-btn {
-  display: none !important;
-}
-
-.auth-left {
-  display: none;
-}
-
-.auth-right {
-  margin-top: 30px;
-}
-
-.auth-section {
-  padding: 0;
-}
-
-.main-color {
-  min-height: 10vh;
-}
-
-}
-
 
 @media (max-width: 576px) {
   #checkout_info {
@@ -640,7 +629,6 @@
     align-items: flex-start;
   }
 
-
   #checkout_info .summary-total strong {
     font-size: 18px;
   }
@@ -649,8 +637,8 @@
     padding: 12px;
     font-size: 15px;
   }
-   /* blog page */
-   #blog-page .inner-banner {
+  /* blog page */
+  #blog-page .inner-banner {
     padding: 50px 0;
   }
   #blog-page .inner-banner .auto-container .subtitle {
@@ -823,31 +811,17 @@
     font-size: 16px;
   }
 
-    .feedback-section {
+  .feedback-section {
     padding: 28px 0;
   }
   .staff-behaviour-options {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
-
-
-
-
-
-
-
-
-
-
- 
-
 }
-
 
 @media (min-width: 992px) {
   .sk-sidebar,
   .sk-overlay {
     display: none;
   }
-  
 }

@@ -308,6 +308,26 @@ function updateCartTotal() {
       }
     });
   });
+
+  const skMenuToggle = document.getElementById('sk-menuToggle');
+  const skSidebar = document.getElementById('sk-sidebar');
+  const skCloseSidebar = document.getElementById('sk-closeSidebar');
+  const skOverlay = document.getElementById('sk-overlay');
+
+  skMenuToggle.addEventListener('click', () => {
+    skSidebar.classList.add('active');
+    skOverlay.classList.add('active');
+  });
+
+  skCloseSidebar.addEventListener('click', () => {
+    skSidebar.classList.remove('active');
+    skOverlay.classList.remove('active');
+  });
+
+  skOverlay.addEventListener('click', () => {
+    skSidebar.classList.remove('active');
+    skOverlay.classList.remove('active');
+  });
 });
 
 
