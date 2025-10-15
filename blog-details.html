@@ -48,7 +48,7 @@
           <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
           <li class="nav-item button-nav d-none d-lg-flex">
-            <a class="order-button" href="#">Order Now
+            <a class="order-button" href="./singup.html">Order Now
               <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
             </a>
           </li>
@@ -238,11 +238,11 @@
                         <div class="col-lg-4 middle-row">
                             <h4>Important Links</h4>
                             <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">About</a></li>
-                                <li><a href="">Our Menus</a></li>
-                                <li><a href="">Blogs</a></li>
-                                <li><a href="">Contact Us</a></li>
+                              <li><a href="./index.html">Home</a></li>
+                              <li><a href="./about_us.html">About</a></li>
+                              <li><a href="./menu.html">Our Menus</a></li>
+                              <li><a href="./blog.html">Blogs</a></li>
+                              <li><a href="./contact.html">Contact Us</a></li>
                             </ul>
                             <div class="social-links d-lg-none">
                                 <a href="">
@@ -281,12 +281,47 @@
         </div>
     </footer>
   <!-- footer End here -->
-  <div class="cart d-flex justify-content-center align-items-center">
-    <div class="notification d-flex align-items-center justify-content-center">
-      <span>1</span>
+    <!--CART SIDEBAR START HERE-->
+    
+    <div class="cart d-flex justify-content-center align-items-center">
+      <div class="notification d-flex align-items-center justify-content-center">
+        <span>1</span>
+      </div>
+      <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
     </div>
-    <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
-  </div>
+    
+    <div class="cart-sidebar">
+      <div class="cart-header">
+        <h3>Your Cart</h3>
+        <button class="cart-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    
+      <div class="cart-items">
+        <div class="cart-item-container">
+          <img src="./assets/img/menu-4.png" alt="Set Menu 4 Image" class="item-image yellow-bg-img">
+    
+          <div class="item-details">
+            <span class="item-name">Set Menu 4</span>
+            <span class="item-price">Tk 698.00</span>
+          </div>
+    
+          <div class="item-quantity-controls">
+            <button class="remove-item-btn trash-icon"><i class="fa-solid fa-trash"></i></button>
+            <span class="item-quantity">1</span>
+            <button class="increase-quantity-btn"><i class="fa-solid fa-plus"></i></button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="cart-summary">
+        <div class="cart-total-line">
+          <strong>Total:</strong>
+          <strong>669 BDT</strong>
+        </div>
+        <a class="checkout-btn" href="./checkout.html">Checkout</a>
+      </div>
+    </div>
+    <!--CART SIDEBAR END HERE-->
 
   <script src="./assets/js/jquery-3.7.1.min.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
