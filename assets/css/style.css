@@ -3933,7 +3933,131 @@ blog page design end here
 }
 /* --- Sadia's Kitchen Feedback css End Here --- */
 
+#branch_nav {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 10px 0;
+}
 
+#branch_nav .navbar-brand img {
+  max-height: 55px;
+}
+
+#branch_nav .search-option {
+  position: relative;
+}
+
+#branch_nav .search-option .search-form {
+  position: relative;
+  width: 100%;
+}
+
+#branch_nav .search-option input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 10px 45px 10px 15px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+#branch_nav .search-option input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(229, 9, 20, 0.3);
+}
+
+#branch_nav .search-option button {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#branch_nav .search-option button:hover {
+  background: #c40811;
+}
+
+
+#branch {
+  padding: 60px 0;
+}
+
+#branch h2 {
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#branch .branch-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+  margin-bottom: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 130px;
+  overflow: hidden;
+  position: relative;
+}
+
+#branch .branch-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+#branch .branch-card h3 {
+  font-size: 22px;
+
+}
+
+#branch .branch-card h3,
+#branch .branch-card .short-address {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.4s ease;
+}
+
+#branch .branch-card .full-address {
+  opacity: 0;
+  transform: translateY(40px);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.4s ease;
+  font-size: 14px;
+}
+
+#branch .branch-card:hover h3,
+#branch .branch-card:hover .short-address {
+  opacity: 0;
+  transform: translateY(-40px);
+
+}
+
+#branch .branch-card:hover .full-address {
+  opacity: 1;
+  transform: translateY(0);
+  color: var(--primary-color);
+}
+
+#branch_body {
+  background: #f0f0f0;
+  font-family: var(--primary-font);
+}
 
 
 
