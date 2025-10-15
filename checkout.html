@@ -26,301 +26,302 @@
 </head>
 
 <body>
- <header>
-  <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg" id="sk-navbar">
-    <div class="container">
-      <a class="navbar-brand order-1 order-lg-0" href="index.html">
-        <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
-      </a>
+  <header>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg" id="sk-navbar">
+      <div class="container">
+        <a class="navbar-brand order-1 order-lg-0" href="index.html">
+          <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
+        </a>
 
-      <!-- Sidebar Toggle Button -->
-      <button class="navbar-toggler order-0" type="button" id="sk-menuToggle">
-        <iconify-icon class="iconify-icon" icon="hugeicons:menu-03"></iconify-icon>
-      </button>
+        <!-- Sidebar Toggle Button -->
+        <button class="navbar-toggler order-0" type="button" id="sk-menuToggle">
+          <iconify-icon class="iconify-icon" icon="hugeicons:menu-03"></iconify-icon>
+        </button>
 
-      <div class="collapse navbar-collapse" id="sk-navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="./menu.html">Menus</a></li>
-          <li class="nav-item"><a class="nav-link" href="./about_us.html">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
-          <li class="nav-item button-nav d-none d-lg-flex">
-            <a class="order-button" href="./singup.html">Order Now
-              <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
-            </a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="sk-navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./menu.html">Menus</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about_us.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
+            <li class="nav-item button-nav d-none d-lg-flex">
+              <a class="order-button" href="./singup.html">Order Now
+                <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-icon order-2 d-lg-none">
+          <a href=""><iconify-icon icon="ri:search-line"></iconify-icon></a>
+        </div>
       </div>
+    </nav>
+    <!-- Navbar End -->
+  </header>
 
-      <div class="search-icon order-2 d-lg-none">
-        <a href=""><iconify-icon icon="ri:search-line"></iconify-icon></a>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar End -->
-</header>
+  <!-- Sidebar -->
+  <div class="sk-sidebar" id="sk-sidebar">
+    <a href="./index.html"><img width="80px" src="./assets/img/logo.png" alt=""></a>
+    <span class="sk-close-btn" id="sk-closeSidebar">&times;</span>
+    <ul class="mt-5">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./menu.html">Menus</a></li>
+      <li><a href="./about_us.html">About Us</a></li>
+      <li><a href="./blog.html">Blog</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+      <li>
+        <a class="order-button" href="#">
+          Order Now <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-<!-- Sidebar -->
-<div class="sk-sidebar" id="sk-sidebar">
-  <a href="./index.html"><img width="80px" src="./assets/img/logo.png" alt=""></a>
-  <span class="sk-close-btn" id="sk-closeSidebar">&times;</span>
-  <ul class="mt-5">
-    <li><a href="./index.html">Home</a></li>
-    <li><a href="./menu.html">Menus</a></li>
-    <li><a href="./about_us.html">About Us</a></li>
-    <li><a href="./blog.html">Blog</a></li>
-    <li><a href="./contact.html">Contact Us</a></li>
-    <li>
-      <a class="order-button" href="#">
-        Order Now <iconify-icon class="iconify-icon" icon="hugeicons:shopping-basket-03"></iconify-icon>
-      </a>
-    </li>
-  </ul>
-</div>
-
-<!-- Overlay -->
-<div class="sk-overlay" id="sk-overlay"></div>
+  <!-- Overlay -->
+  <div class="sk-overlay" id="sk-overlay"></div>
 
 
   <main id="contact-page">
 
- <!-- MAIN CHECKOUT CONTAINER -->
-  <div class="container" id="checkout_info">
-    <form action="#">
-      <div class="row">
-        <!-- LEFT -->
-        <div class="col-lg-7">
-          <div class="form-section">
-            <h2>Delivery Information</h2>
-            <div class="form-grid">
-              <div>
-                <label for="">Name <span class="text-danger">*</span></label>
-                <input type="text" placeholder="Name">
+    <!-- MAIN CHECKOUT CONTAINER -->
+    <div class="container" id="checkout_info">
+      <form action="#">
+        <div class="row">
+          <!-- LEFT -->
+          <div class="col-lg-7">
+            <div class="form-section">
+              <h2>Delivery Information</h2>
+              <div class="form-grid">
+                <div>
+                  <label for="">Name <span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Name">
+                </div>
+                <div>
+                  <label for="">Mobile Number <span class="text-danger">*</span></label>
+                  <input type="text" placeholder="Mobile Number">
+                </div>
+                <div>
+                  <label for="">Email <span class="text-danger">*</span></label>
+                  <input type="email" placeholder="Email">
+                </div>
+                <div>
+                  <label for="">Select Branch <span class="text-danger">*</span></label>
+                  <select>
+                    <option value="">Select Branch</option>
+                    <option value="Dhaka">Dhaka Branch</option>
+                    <option value="Chittagong">Chittagong Branch</option>
+                    <option value="Sylhet">Sylhet Branch</option>
+                  </select>
+                </div>
               </div>
-              <div>
-                <label for="">Mobile Number <span class="text-danger">*</span></label>
-                <input type="text" placeholder="Mobile Number">
+              <div class="mb-3">
+                <label for="">Address <span class="text-danger">*</span></label>
+                <input type="text" placeholder="Address">
               </div>
-              <div>
-                <label for="">Email <span class="text-danger">*</span></label>
-                <input type="email" placeholder="Email">
+              <div class="mb-3">
+                <label for="">Order Note</label>
+                <textarea placeholder="Order Note"></textarea>
               </div>
-              <div>
-                <label for="">Select Branch <span class="text-danger">*</span></label>
-                <select>
-                  <option value="">Select Branch</option>
-                  <option value="Dhaka">Dhaka Branch</option>
-                  <option value="Chittagong">Chittagong Branch</option>
-                  <option value="Sylhet">Sylhet Branch</option>
-                </select>
+              <div class="payment-section">
+                <h2>Select Payment Method</h2>
+                <div class="payment-method">
+                  <div class="payment-option">
+                    <input type="radio" id="pay-online" name="payment" value="online">
+                    <label for="pay-online">
+                      <span class="icon"><iconify-icon icon="uil:atm-card" width="24" height="24"></iconify-icon></span>
+                      <span class="text">Online Payment</span>
+                    </label>
+                  </div>
+                  <div class="payment-option">
+                    <input type="radio" id="pay-cod" name="payment" value="cod" checked>
+                    <label for="pay-cod">
+                      <span class="icon"><iconify-icon icon="tdesign:money" width="24"
+                          height="24"></iconify-icon></span>
+                      <span class="text">Cash on Delivery</span>
+                    </label>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="mb-3">
-              <label for="">Address <span class="text-danger">*</span></label>
-              <input type="text" placeholder="Address">
-            </div>
-            <div class="mb-3">
-              <label for="">Order Note</label>
-              <textarea placeholder="Order Note"></textarea>
-            </div>
-            <div class="payment-section">
-              <h2>Select Payment Method</h2>
-              <div class="payment-method">
-  <div class="payment-option">
-    <input type="radio" id="pay-online" name="payment" value="online">
-    <label for="pay-online">
-      <span class="icon">💳</span>
-      <span class="text">Online Payment</span>
-    </label>
-  </div>
-  <div class="payment-option">
-    <input type="radio" id="pay-cod" name="payment" value="cod" checked>
-    <label for="pay-cod">
-      <span class="icon">💵</span>
-      <span class="text">Cash on Delivery</span>
-    </label>
-  </div>
-</div>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="col-lg-5">
+            <div class="order-summary">
+              <h2>Order Summary</h2>
+              <div class="order-item">
+                <span>Portable Stereo Speaker</span>
+                <span class="price" data-price="230.49">$230.49</span>
+              </div>
+              <div class="order-item">
+                <span>Portable Stereo Speaker</span>
+
+                <span class="price" data-price="230.49">$230.49</span>
+              </div>
+              <div class="order-item">
+                <span>Portable Stereo Speaker</span>
+
+                <span class="price" data-price="230.49">$230.49</span>
+              </div>
+
+              <div class="summary-total">
+                <div><span>Subtotal</span><span id="subtotal">$1190.69</span></div>
+                <div><span>Shipping</span><span>Free</span></div>
+                <div><strong>Total</strong><strong id="total">$1190.69</strong></div>
+              </div>
+              <button type="button" class="confirm-btn" onclick="confirmOrder()">Confirm Order</button>
             </div>
           </div>
         </div>
+      </form>
+    </div>
 
-        <!-- RIGHT -->
-        <div class="col-lg-5">
-          <div class="order-summary">
-            <h2>Order Summary</h2>
-            <div class="order-item">
-              <span>Portable Stereo Speaker</span>              
-              <span class="price" data-price="230.49">$230.49</span>
-            </div>
-            <div class="order-item">
-              <span>Portable Stereo Speaker</span>
-             
-              <span class="price" data-price="230.49">$230.49</span>
-            </div>
-            <div class="order-item">
-              <span>Portable Stereo Speaker</span>
-              
-              <span class="price" data-price="230.49">$230.49</span>
-            </div>
 
-            <div class="summary-total">
-              <div><span>Subtotal</span><span id="subtotal">$1190.69</span></div>
-              <div><span>Shipping</span><span>Free</span></div>
-              <div><strong>Total</strong><strong id="total">$1190.69</strong></div>
-            </div>
-            <button type="button" class="confirm-btn" onclick="confirmOrder()">Confirm Order</button>
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-
-   
   </main>
 
 
   <!-- footer Start here -->
-    <footer>
-        <div class="contianer-fluid" id="footer">
-            <div class="container">
-                <div class="content">
-                    <div class="row">
-                        <div class="col-lg-4 text-lg-start  left-row">
-                            <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
-                            <p>Nestled in the heart of Chattogram since 2013, Sadia’s Kitchen brings fresh, flavorful
-                                meals straight to your table.</p>
-                            <div class="social-links d-none d-lg-block">
-                                <a href="">
-                                    <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
-                                </a>
-                                <a href="">
-                                    <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
-                                </a>
-                                <a href="">
-                                    <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 middle-row">
-                            <h4>Important Links</h4>
-                            <ul>
-                              <li><a href="./index.html">Home</a></li>
-                              <li><a href="./about_us.html">About</a></li>
-                              <li><a href="./menu.html">Our Menus</a></li>
-                              <li><a href="./blog.html">Blogs</a></li>
-                              <li><a href="./contact.html">Contact Us</a></li>
-                            </ul>
-                            <div class="social-links d-lg-none">
-                                <a href="">
-                                    <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
-                                </a>
-                                <a href="">
-                                    <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
-                                </a>
-                                <a href="">
-                                    <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 right-row text-lg-end text-center">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
-                                style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="copyright">
-                        <div class="row">
-                            <div class="col-lg-6 col-12 text-lg-start text-center">
-                                <p>Copyright <iconify-icon class="iconify-icon"
-                                        icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's Kitchen.All Rights
-                                    Reserved</p>
-                            </div>
-                            <div class="col-lg-6 col-12 text-lg-end text-center">
-                                <p>Developed By <a href="">Brand Boosters</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <footer>
+    <div class="contianer-fluid" id="footer">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="col-lg-4 text-lg-start  left-row">
+              <img src="./assets/img/logo.png" class="img-fluid" alt="logo">
+              <p>Nestled in the heart of Chattogram since 2013, Sadia’s Kitchen brings fresh, flavorful
+                meals straight to your table.</p>
+              <div class="social-links d-none d-lg-block">
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                </a>
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                </a>
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                </a>
+              </div>
             </div>
+            <div class="col-lg-4 middle-row">
+              <h4>Important Links</h4>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about_us.html">About</a></li>
+                <li><a href="./menu.html">Our Menus</a></li>
+                <li><a href="./blog.html">Blogs</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+              </ul>
+              <div class="social-links d-lg-none">
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="ic:baseline-facebook"></iconify-icon>
+                </a>
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="mdi:youtube"></iconify-icon>
+                </a>
+                <a href="">
+                  <iconify-icon class="iconify-icon" icon="mdi:instagram"></iconify-icon>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 right-row text-lg-end text-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59047.63496946363!2d91.79118264562469!3d22.335604009094116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssadias%20kitchen!5e0!3m2!1sen!2sbd!4v1755548448583!5m2!1sen!2sbd"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <hr>
+          <div class="copyright">
+            <div class="row">
+              <div class="col-lg-6 col-12 text-lg-start text-center">
+                <p>Copyright <iconify-icon class="iconify-icon" icon="ic:baseline-copyright"></iconify-icon>2025 Sadia's
+                  Kitchen.All Rights
+                  Reserved</p>
+              </div>
+              <div class="col-lg-6 col-12 text-lg-end text-center">
+                <p>Developed By <a href="">Brand Boosters</a></p>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
   <!-- footer End here -->
-    <!--CART SIDEBAR START HERE-->
-    
-    <div class="cart d-flex justify-content-center align-items-center">
-      <div class="notification d-flex align-items-center justify-content-center">
-        <span>1</span>
-      </div>
-      <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
+  <!--CART SIDEBAR START HERE-->
+
+  <div class="cart d-flex justify-content-center align-items-center">
+    <div class="notification d-flex align-items-center justify-content-center">
+      <span>1</span>
     </div>
-    
-    <div class="cart-sidebar">
-      <div class="cart-header">
-        <h3>Your Cart</h3>
-        <button class="cart-close"><i class="fa-solid fa-xmark"></i></button>
-      </div>
-    
-      <div class="cart-items">
-        <div class="cart-item-container">
-          <img src="./assets/img/menu-4.png" alt="Set Menu 4 Image" class="item-image yellow-bg-img">
-    
-          <div class="item-details">
-            <span class="item-name">Set Menu 4</span>
-            <span class="item-price">Tk 698.00</span>
-          </div>
-    
-          <div class="item-quantity-controls">
-            <button class="remove-item-btn trash-icon"><i class="fa-solid fa-trash"></i></button>
-            <span class="item-quantity">1</span>
-            <button class="increase-quantity-btn"><i class="fa-solid fa-plus"></i></button>
-          </div>
+    <iconify-icon class="iconify-icon" icon="humbleicons:basket"></iconify-icon>
+  </div>
+
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button class="cart-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="cart-items">
+      <div class="cart-item-container">
+        <img src="./assets/img/menu-4.png" alt="Set Menu 4 Image" class="item-image yellow-bg-img">
+
+        <div class="item-details">
+          <span class="item-name">Set Menu 4</span>
+          <span class="item-price">Tk 698.00</span>
+        </div>
+
+        <div class="item-quantity-controls">
+          <button class="remove-item-btn trash-icon"><i class="fa-solid fa-trash"></i></button>
+          <span class="item-quantity">1</span>
+          <button class="increase-quantity-btn"><i class="fa-solid fa-plus"></i></button>
         </div>
       </div>
-    
-      <div class="cart-summary">
-        <div class="cart-total-line">
-          <strong>Total:</strong>
-          <strong>669 BDT</strong>
-        </div>
-        <a class="checkout-btn" href="./checkout.html">Checkout</a>
-      </div>
     </div>
-    <!--CART SIDEBAR END HERE-->
-  
-  
-  
+
+    <div class="cart-summary">
+      <div class="cart-total-line">
+        <strong>Total:</strong>
+        <strong>669 BDT</strong>
+      </div>
+      <a class="checkout-btn" href="./checkout.html">Checkout</a>
+    </div>
+  </div>
+  <!--CART SIDEBAR END HERE-->
+
+
+
   <script src="./assets/js/jquery-3.7.1.min.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
   <script src="./assets/js/main.js"></script>
-  
-<script>
-   const skMenuToggle = document.getElementById("sk-menuToggle");
-  const skSidebar = document.getElementById("sk-sidebar");
-  const skCloseSidebar = document.getElementById("sk-closeSidebar");
-  const skOverlay = document.getElementById("sk-overlay");
 
-  skMenuToggle.addEventListener("click", () => {
-    skSidebar.classList.add("active");
-    skOverlay.classList.add("active");
-  });
+  <script>
+    const skMenuToggle = document.getElementById("sk-menuToggle");
+    const skSidebar = document.getElementById("sk-sidebar");
+    const skCloseSidebar = document.getElementById("sk-closeSidebar");
+    const skOverlay = document.getElementById("sk-overlay");
 
-  skCloseSidebar.addEventListener("click", () => {
-    skSidebar.classList.remove("active");
-    skOverlay.classList.remove("active");
-  });
+    skMenuToggle.addEventListener("click", () => {
+      skSidebar.classList.add("active");
+      skOverlay.classList.add("active");
+    });
 
-  skOverlay.addEventListener("click", () => {
-    skSidebar.classList.remove("active");
-    skOverlay.classList.remove("active");
-  });
+    skCloseSidebar.addEventListener("click", () => {
+      skSidebar.classList.remove("active");
+      skOverlay.classList.remove("active");
+    });
 
-</script>
+    skOverlay.addEventListener("click", () => {
+      skSidebar.classList.remove("active");
+      skOverlay.classList.remove("active");
+    });
+
+  </script>
 </body>
 
 </html>

@@ -1907,7 +1907,7 @@ Checkout page design start here
 /* Checkout Container */
 #contact-page {
   background: #f0f0f0;
-  padding: 0 0 30px 0;
+  /* padding: 0 0 30px 0; */
   /* margin: 30px 0; */
 }
 
@@ -2023,7 +2023,6 @@ Checkout page design start here
 #checkout_info .payment-method label:hover {
   background: #e0e7ff;
   border-color: var(--primary-color);
-  transform: translateY(-3px);
 }
 
 #checkout_info .payment-method label .icon {
@@ -2035,21 +2034,19 @@ Checkout page design start here
   height: 36px;
   border-radius: 50%;
   background: #e5e7eb;
-  color: #2563eb;
+  color: #000000;
   transition: all 0.3s ease;
 }
 
 #checkout_info .payment-method input[type="radio"]:checked+label {
   background: var(--primary-color);
   color: #fff;
-  border: none;
   box-shadow: 0 6px 15px rgba(37, 99, 235, 0.4);
 }
 
 #checkout_info .payment-method input[type="radio"]:checked+label .icon {
   background: #fff;
   color: var(--primary-color);
-  transform: scale(1.1);
 }
 
 #checkout_info .payment-method label .text {
@@ -2107,18 +2104,20 @@ Checkout page design start here
   background: var(--primary-color);
   color: #fff;
   padding: 15px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   margin-top: 20px;
   transition: all 0.3s ease;
+  border: 1px solid var(--primary-color);
 }
 
 #checkout_info .confirm-btn:hover {
-  background: #1e40af;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+  background: #ffffff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 /*
